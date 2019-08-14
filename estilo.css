@@ -61,7 +61,9 @@ background-color: blue;
 }
 
 @media only screen and (max-width: 400px) {
-
+body{
+	width:600px;
+	}
 	.icon{
 		display: none;
 	}
