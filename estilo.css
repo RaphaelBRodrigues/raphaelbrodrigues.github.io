@@ -8,18 +8,19 @@ body{
 #brand:hover #faixa{
 display: none;
 }
+
 #nav{
 	position: fixed;
 	width: 100%;
 	z-index: 999;
 }
-#main{ 
- height: 30em; 
+#main{
+ height: 30em;
 background-color:black;
 	 width:100%;
 }
 
-.parallax { 
+.parallax {
   background-image: url("images/code.png");
   opacity: 0.8;
  width: 100%;
@@ -30,11 +31,65 @@ background-color:black;
   background-repeat: no-repeat;
   background-size: cover;
 }
-#faixa{
+
+
+
+.faixa{
 width: 100%;
 height: 50px;
 background-color: blue;
 	background-image:url("images/tag.png");
 	background-size:50px;
+
+}
+.navbar-toggler-icon{
+	display: none;
+
+}
+.navcab{
+	height:2em;
+
+}
+.icon{
+	display: inline;
+}
+#link{
+	float: left;
+}
+#tchau{
+	display: none;
+}
+
+@media only screen and (max-width: 850px) {
+
+	.icon{
+		display: none;
+	}
+	*{
+		transition-duration: 0.2s;
+	}
+	#tchau{
+		display: inherit;
+	}
+	.navbar-toggler-icon{
+		display: inherit;
+		border: 0.25px solid yellow;
+		padding: 2px;
+		border-radius: 3px;
+	}
+	div ul li {
+		transition-duration: 0.4s;
+
+		opacity:1;
+
+		display:none;
+		opacity:0;
+	}
+	#check:checked ~ div ul li {
+
+		opacity:1;
+
+	display:inherit;
+	}
 
 }
