@@ -2,6 +2,9 @@ body{
 	margin:0;
 	background-color:gray;
 }
+#foto{
+text-align: center;
+}
 .navbar-brand{
 	transition-duration:1s;
 }
@@ -16,7 +19,6 @@ display: none;
 }
 #main{
  height: 30em;
-background-color:black;
 	 width:100%;
 }
 
@@ -33,7 +35,9 @@ background-color:black;
 }
 
 
-
+#checkIcon{
+	display: none;
+}
 .faixa{
 width: 100%;
 height: 50px;
@@ -59,39 +63,54 @@ background-color: blue;
 #tchau{
 	display: none;
 }
+div ul li{
 
-@media only screen and (max-width: 400px) {
-body{
-	width:600px;
-	}
-	.icon{
-		display: none;
-	}
+}
+
+@media screen and (max-width: 990px) {
+
 	*{
 		transition-duration: 0.2s;
 	}
-	#tchau{
+	#checkIcon{
 		display: inherit;
 	}
+
 	.navbar-toggler-icon{
 		display: inherit;
 		border: 0.25px solid yellow;
 		padding: 2px;
 		border-radius: 3px;
 	}
-	div ul li {
+.nav-item{
 		transition-duration: 0.4s;
+display: none;
 
-		opacity:1;
 
-		display:none;
-		opacity:0;
 	}
+
+	#link{
+		display: inherit;
+
+
+	}
+
 	#check:checked ~ div ul li {
 
 		opacity:1;
 
 	display:inherit;
 	}
+	#check:checked ~ #link{
+		display:inherit;
+		opacity: 1;
+	}
+.icon{
+	display:inline-block;
+
+}
+
+
+
 
 }
