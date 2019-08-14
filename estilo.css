@@ -3,7 +3,19 @@ body{
 	background-color:gray;
 }
 #foto{
-text-align: center;
+	top:20%;
+border-radius: 50em;
+	position: relative;
+	height: 20em;
+width: 20em;
+transition-duration:1s;
+border:2px double green;
+}
+#foto:hover{
+
+	transform:rotate(360deg) scale(1.2);
+	border:5px double green;
+
 }
 .navbar-brand{
 	transition-duration:1s;
@@ -98,17 +110,23 @@ display: none;
 	#check:checked ~ div ul li {
 
 		opacity:1;
-
 	display:inherit;
 	}
 	#check:checked ~ #link{
 		display:inherit;
 		opacity: 1;
 	}
-.icon{
+#check:checked ~ .icon{
 	display:inline-block;
 
 }
+#ic1{
+	float: left;
+}
+#ic2{
+	float:left;
+}
+
 
 
 
