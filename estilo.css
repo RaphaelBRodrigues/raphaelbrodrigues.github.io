@@ -2,16 +2,30 @@ body{
 	margin:0;
 	background-color:gray;
 }
+
+
 #foto{
-	top:20%;
+	top:7em;
 border-radius: 50em;
-	position: relative;
-	height: 20em;
+	position:relative;
+	height:20em;
 width: 20em;
 transition-duration:1s;
 border:2px double green;
 }
 #foto:hover{
+
+	transform:rotate(360deg) scale(1.2);
+	border:5px double green;
+
+}
+ #btn-main1{
+	transition-duration: 0.5s;
+margin-left: 25%;
+}#btn-main2{
+	margin-right:25%;
+}
+#foto:hover ~ #btn-main{
 
 	transform:rotate(360deg) scale(1.2);
 	border:5px double green;
@@ -84,6 +98,14 @@ div ul li{
 	*{
 		transition-duration: 0.2s;
 	}
+
+	#btn-main1{
+		transition-duration: 0.5s;
+		left: 13em;
+	}#btn-main2{
+	left:35em;
+	}
+
 	#checkIcon{
 		display: inherit;
 	}
