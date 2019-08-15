@@ -2,9 +2,22 @@ body{
 	margin:0;
 	background-color:black;
 }
+.potencia{
+	background-color:white;
+	height: 0.3em;
+}
+.potenciaReal{
+	position: absolute;
+	margin-left: -0.93em;
+	background-color:green;
+	height: 0.3em;
+}
+.container-habilidades{
+	background-color: rgba(255,255,255,0.1);
 
+}
 .container-resumo{
-	/* background-color: rgba(0,0,0); */
+	background-color: rgba(255,255,255,0.1);
 }
 #foto{
 	top:7em;
