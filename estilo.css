@@ -35,15 +35,15 @@ border:2px double green;
 
 }
  #btn-main1{
-	transition-duration: 0.5s;
-left: 20em;
+	transition-duration: 1s;
 position: absolute;
 }#btn-main2{
-right:20em;
+		transition-duration: 1s;
+left: 30em;
 position: absolute;
 
 }
-#foto:hover ~ #btn-main{
+#foto:hover ~ .btn-main{
 
 	transform:rotate(360deg) scale(1.2);
 	border:5px double green;
@@ -117,7 +117,7 @@ div ul li{
 	float: right;
 }
 #idiomas{
-	
+
 }
 
 
