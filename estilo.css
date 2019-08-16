@@ -117,7 +117,7 @@ div ul li{
 	float: right;
 }
 #idiomas{
-margin-top: 100px;
+	
 }
 
 
@@ -192,9 +192,5 @@ display: none;
 @media screen and (max-width: 1230px) and (min-width: 990px) {
 .navbar-toggler-icon{
 	display: none;
-
-}
-container-habilidades
-
 
 }
