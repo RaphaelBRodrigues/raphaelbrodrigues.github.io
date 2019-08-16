@@ -36,11 +36,10 @@ border:2px double green;
 }
  #btn-main1{
 	transition-duration: 1s;
-position: absolute;
+
 }#btn-main2{
 		transition-duration: 1s;
-left: 30em;
-position: absolute;
+
 
 }
 #foto:hover ~ .btn-main{
