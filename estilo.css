@@ -21,7 +21,7 @@ body{
 }
 #foto{
 	top:7em;
-border-radius: 50em;
+border-radius: 20em;
 	position:relative;
 	height:20em;
 width: 20em;
@@ -36,9 +36,12 @@ border:2px double green;
 }
  #btn-main1{
 	transition-duration: 0.5s;
-margin-left: 25%;
+left: 20em;
+position: absolute;
 }#btn-main2{
-	margin-right:25%;
+right:20em;
+position: absolute;
+
 }
 #foto:hover ~ #btn-main{
 
@@ -84,8 +87,7 @@ width: 100%;
 height: 2em;
 	background-image:url("images/tag.png");
 	background-size:2em;
-	background-repeat: space(1em);
-	padding-left: 1em;
+
 
 }
 .navbar-toggler-icon{
@@ -108,16 +110,25 @@ height: 2em;
 div ul li{
 
 }
+#h1{
+	 float:left;
+}
+#h2{
+	float: right;
+}
+#idiomas{
+margin-top: 100px;
+}
 
 
-
-
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 990px) {
 
 	*{
 		transition-duration: 0.2s;
 	}
-
+h1{
+	font-size: 2em;
+}
 	#btn-main1{
 		transition-duration: 0.5s;
 		left: 13em;
@@ -131,7 +142,6 @@ div ul li{
 
 	.navbar-toggler-icon{
 		display: inherit;
-		border: 0.25px solid yellow;
 		padding: 2px;
 		border-radius: 3px;
 	}
@@ -167,12 +177,24 @@ display: none;
 #ic2{
 	float:left;
 }
+#h1{
+	 float:inherit;
+}
+#h2{
+	float: inherit;
 
+}
 
 
 
 
 }
-/* @media screen and (max-width: 1240px) {
+@media screen and (max-width: 1230px) and (min-width: 990px) {
+.navbar-toggler-icon{
+	display: none;
 
-994 1258 */
+}
+container-habilidades
+
+
+}
