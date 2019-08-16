@@ -35,16 +35,29 @@ border:2px double green;
 
 }
  #btn-main1{
-	transition-duration: 1s;
+ 	transition-duration:1s;
+ 	transition-timing-function:linear;
+	margin-left: 10em;
 
 }#btn-main2{
+		margin-right: 10em;
+
 		transition-duration: 1s;
 
 
 }
-#foto:hover ~ .btn-main{
+#foto:hover ~ #btn-main1{
+ 	transition-duration:1s;
 
-	transform:rotate(360deg) scale(1.2);
+	transform:rotate(-30deg) scale(1.2);
+	border:5px double green;
+
+}
+
+#foto:hover ~ #btn-main2{
+ 	transition-duration:1s;
+
+	transform:rotate(30deg) scale(1.2);
 	border:5px double green;
 
 }
