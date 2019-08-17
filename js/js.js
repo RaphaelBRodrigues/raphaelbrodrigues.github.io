@@ -1,7 +1,6 @@
  $(document).ready(function(){
 	  	  	 	verde(document.getElementById('inicio'));
-  $("html, body").animate({ scrollTop: 0 }, "slow");
-
+window.scroll(5);
 
 
  });
