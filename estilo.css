@@ -2,6 +2,9 @@ body{
 	margin:0;
 	background-color:black;
 }
+*{
+	transition-duration:0.9s;
+}
 .potencia{
 	background-color:white;
 	height: 0.3em;
@@ -131,7 +134,9 @@ div ul li{
 
 #idiomas{
 }
-
+.test{
+	display: none;
+}
 
 @media screen and (max-width: 990px) {
 
