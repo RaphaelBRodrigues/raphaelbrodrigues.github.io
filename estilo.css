@@ -3,10 +3,14 @@ body{
 	background-color:black;
 }
 #qr{
+	opacity: 0.6;
+}
+#container-qr{
 	position: fixed;
-	float: right;
 	top:5em;
-	opacity:0.3;
+	background-image: url('images/logo.jpg');
+	background-size: 99%;
+	opacity:0.8;
 }
 #portifolio{
 }
