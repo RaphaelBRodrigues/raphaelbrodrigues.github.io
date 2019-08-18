@@ -2,6 +2,12 @@ body{
 	margin:0;
 	background-color:black;
 }
+#qr{
+	position: fixed;
+	float: right;
+	top:5em;
+	opacity:0.3;
+}
 #portifolio{
 }
 *{
