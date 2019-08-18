@@ -5,8 +5,13 @@ body{
 #qr{
 	opacity: 0.6;
 }
+#main{
+		z-index: 999;
+
+}
 #container-qr{
-	position: fixed;
+	position: fixed; 
+	z-index: 992;
 	top:5em;
 	background-image: url('images/logo.jpg');
 	background-size: 99%;
