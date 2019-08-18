@@ -20,8 +20,8 @@ function start(){
 	//A variável é só para definir o nome do arquivo
 imgAtual = 0 ;
 
-//A cada intervalo de 1 segundo(1000) roda uma função que roda a função trocaImg()
-setInterval(function(){trocaImg();},1000);
+//A cada intervalo de 1,3 segundo(1300) roda uma função que roda a função trocaImg()
+setInterval(function(){trocaImg();},1300);
 
  }
 
