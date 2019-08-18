@@ -2,6 +2,9 @@ body{
 	margin:0;
 	background-color:black;
 }
+::-webkit-scrollbar-thumb {
+background:yellow;
+}
 #nav{
 	border-bottom: 1px solid yellow;
 	background-color: #000000;
@@ -16,10 +19,10 @@ body{
 #container-qr{
 	position: fixed; 
 	z-index: 992;
-	top:35em;
+	top:33em;
 	background-image: url('images/logo.jpg');
 	background-size: 99%;
-	opacity:0.8;
+	opacity:1;
 }
 #portifolio{
 }
