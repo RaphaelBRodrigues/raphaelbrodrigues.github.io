@@ -2,6 +2,10 @@ body{
 	margin:0;
 	background-color:black;
 }
+#nav{
+	border-bottom: 1px solid yellow;
+	background-color: #000000;
+}
 #qr{
 	opacity: 0.6;
 }
@@ -12,7 +16,7 @@ body{
 #container-qr{
 	position: fixed; 
 	z-index: 992;
-	top:33em;
+	top:35em;
 	background-image: url('images/logo.jpg');
 	background-size: 99%;
 	opacity:0.8;
