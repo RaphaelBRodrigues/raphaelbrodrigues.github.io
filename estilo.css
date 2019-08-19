@@ -5,9 +5,19 @@ body{
 ::-webkit-scrollbar-thumb {
 background:yellow;
 }
+.passNav{
+	background-color:#EEC900;
+}
+.wordPass{
+color:black;
+ }
+ .navPass
+ {
+ 	background-color:#EEC900;
+ }
 #nav{
+			background-color:rgba(0,0,0,1);
 	border-bottom: 1px solid yellow;
-	background-color: #000000;
 }
 #qr{
 	opacity: 0.6;
@@ -142,6 +152,10 @@ height: 2em;
 }
 #link{
 	float: left;
+}
+.tchau{
+	opacity: 0;
+	
 }
 #tchau{
 	display: none;
