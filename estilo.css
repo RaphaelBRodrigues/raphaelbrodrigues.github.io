@@ -2,6 +2,12 @@ body{
 	margin:0;
 	background-color:black;
 }
+#footer{
+position: absolute;
+border-top: 1px solid yellow;
+margin-top: 20em;
+
+}
 #contgit{
 	margin-top: 1em;
 	border-radius: 1em;
@@ -46,7 +52,7 @@ color:black;
 
 }
 #container-qr{
-	position: fixed; 
+	position: fixed;
 	z-index: 992;
 	top:33em;
 	background-image: url('images/logo.jpg');
@@ -174,7 +180,7 @@ height: 2em;
 }
 .tchau{
 	opacity: 0;
-	
+
 }
 #tchau{
 	display: none;
