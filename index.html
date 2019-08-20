@@ -8,6 +8,7 @@
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script type="text/javascript" src='js/menu.js'></script>
+<script type="text/javascript" src='js/link.js'></script>
 <script type="text/javascript" src='js/scroll.js'></script>
 
  <script type="text/javascript" src='js/carrosel.js'></script>
@@ -86,7 +87,7 @@
 	<div class="img-fluid parallax" id='code'>
 
 		<img class='d-block mx-auto'  src="images/foto.jpg" id='foto'  alt="">
-		<a href="images/favicon.png" download></a><button  type="button" class='btn btn-success btn-main float-left '  id='btn-main1' onclick="trocaImg()" name="button">Currículo</button>
+		<a href="images/favicon.png" download></a><button  type="button" class='btn btn-success btn-main float-left '  id='btn-main1'  name="button">Currículo</button>
 		<button type="button" class='btn btn-success btn-main   float-right'  id='btn-main2' name="button">Contrate-me</button>
 
 	</div>
@@ -272,7 +273,7 @@
 </div>
 <div class="faixa" id='portifolio'></div>
 
-<h1 id='portifolio' class="text text-center text-warning text-uppercase">Projetos</h1>
+<h1 onclick="ps()" id='portifolio' class="text text-center text-warning text-uppercase">Projetos</h1>
 
 <div class='container float-left ml-5 col-4 mt-4'  id="portifolio">
 <h2 class='text text-warning text-center pb-3'>PayPizza</h2>
@@ -300,8 +301,31 @@
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
 </div>
-<div class="faixa mt-lg-5" id='contatos'></div>
+<div class="faixa mt-lg-5 mb-lg-5" id='contatos'></div>
 <h1 class='text text-warning text-uppercase text-center'>Contatos</h1>
+
+	<div id='contgit' class='container container-fluid float-left col-lg-5 ml-lg-5' >
+	<a class='nav-link text-light py-lg-1' href="https://github.com/RaphaelBRodrigues/">
+		<img class='float-left col-lg-3 ml-lg-2 ' id='gh' src="images/git.png">
+		<h3 class='ml-lg-1  float-left mt-lg-5 '  id='git-text'>Github: <span  class='text text-warning sp'>RaphaelBRodrigues</span></h3>
+		<br>
+</a>
+</div>
+
+
+	<div id='contgit' class='container float-right mr-5 col-lg-5 ml-lg-5' >
+	<a class='nav-link text-light py-lg-1' href="https://www.linkedin.com/in/raphael-barbosa-rodrigues-08b02889/">
+		<img class='float-left col-lg-3 ml-lg-2 ' id='gh' src="images/linkedin.png">
+		<h3 class='ml-lg-1  float-left mt-lg-5 '  id='git-text'>Linkedin: <span class='text text-warning sp'>Raphael Barbosa Rodrigues</span></h3>
+		<br>
+</a>
+</div>
+<br>
+
+
+
+
+
 
 </body>
 
