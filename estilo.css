@@ -312,6 +312,19 @@ li h4{
 li small{
 
 }
+{
+font-size: 20em;
+}
+#e{
+	font-size: 4em;
+}
+
+.form-control:focus{
+	background-color:rgba(1,1,1,1);
+	font-size: 2em;
+	border: 1px solid yellow;
+	color:white;
+}
 }
 @media screen and (max-width: 1230px) and (min-width: 990px) {
 .navbar-toggler-icon{
