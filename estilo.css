@@ -315,8 +315,12 @@ li small{
 {
 font-size: 20em;
 }
-#e{
+#email{
 	font-size: 4em;
+}
+#emai{
+	font-size: 3.5em;
+
 }
 
 .form-control:focus{
