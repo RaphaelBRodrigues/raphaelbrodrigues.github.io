@@ -2,10 +2,24 @@ body{
 	margin:0;
 	background-color:black;
 }
+.form-control:focus{
+	background-color:rgba(1,1,1,1);
+	border: 1px solid yellow;
+}
+.form-control{
+	border: 0px;
+	background-color: rgba(0,0,0,0);
+	border-bottom: solid 1px yellow;
+}
+#em{
+	border: solid 1px yellow;
+	border-radius: 21px;
+	margin-top:30em;
+}
 #footer{
 position: absolute;
 border-top: 1px solid yellow;
-margin-top: 20em;
+margin-top: 0em;
 
 }
 #contgit{
@@ -206,6 +220,11 @@ div ul li{
 	*{
 		transition-duration: 0.2s;
 	}
+	#em{
+	border: solid 1px yellow;
+	border-radius: 21px;
+	margin-top:3em;
+}
 h1{
 	font-size: 2em;
 }
