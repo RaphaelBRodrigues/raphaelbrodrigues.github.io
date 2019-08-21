@@ -63,6 +63,8 @@ if ($(document).scrollTop() >= $("#portifolio").position().top) {
 
 	var el = document.getElementById("contatoss");
 	verde(el);
+}else{
+	backcolor(document.getElementById("contatoss"));
 }
 if($(document).scrollTop() >= $("#portifolio").position().top){
 
@@ -75,4 +77,20 @@ if($(document).scrollTop() >= $("#portifolio").position().top){
 		 $("#container-qr").css("z-index","991");
 
 	}
+
+
+	if ($(document).scrollTop() >= $("#formacao").position().top) {
+	//Resumo
+	if ($(document).scrollTop() < $("#contatos").position().top) {
+	var el = document.getElementById("formacaoo");
+	verde(el);
+
+}else{
+		backcolor(document.getElementById("formacaoo"));
+
+}
+}else{
+		backcolor(document.getElementById("formacaoo"));
+
+}
 });

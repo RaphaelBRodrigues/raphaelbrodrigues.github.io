@@ -8,6 +8,7 @@
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script type="text/javascript" src='js/menu.js'></script>
+<script type="text/javascript" src='js/contrate.js'></script>
 <script type="text/javascript" src='js/link.js'></script>
 <script type="text/javascript" src='js/scroll.js'></script>
 
@@ -88,7 +89,7 @@
 
 		<img class='d-block mx-auto'  src="images/foto.jpg" id='foto'  alt="">
 		<a href="images/favicon.png" download></a><button  type="button" class='btn btn-success btn-main float-left '  id='btn-main1'  name="button">Currículo</button>
-		<button type="button" class='btn btn-success btn-main   float-right'  id='btn-main2' name="button">Contrate-me</button>
+		<a href="#em" onclick="contrate()"><button type="button" onclick="contrate()" class='btn btn-success btn-main   float-right'  id='btn-main2' name="button">Contrate-me</button></a>
 
 	</div>
 </div>
@@ -104,6 +105,8 @@
 </div>
 </div>
 <div class='faixa mb-5' id='habilidades'></div>
+<h1 class='text text-warning mb-5 text-uppercase text-center'>Habilidades</h1>
+
 <div id='idiomas' class='col-9 mx-auto mb-5  rounded border border-success container-habilidades'>
 <h1 class='text-h1 text-warning text-center '>Idiomas</h1>
 
@@ -301,6 +304,19 @@
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
 </div>
+<div class="faixa mt-lg-5 mb-lg-5" id='formacao'></div>
+<h1 class='text text-warning text-uppercase mb-lg-5 text-center'>Formações acadêmicas</h1>
+<ul class='list-group col-4 mx-auto'>
+	
+	<li class='list-group-item text-warning'><h4><small>Ensino Fundamental:</small><br>Escola Adventista Thiago White(2005-2016)</h4></li>
+ <Br>
+	<li class='list-group-item text-warning '><h4><small>Ensino Médio Técnico:</small><br>UNASP(2017-2019)</h4></li>
+<br>
+		<li class='list-group-item text-muted '><h4><small>Ciência da computação</small><br>??</h4></li>
+		<br>
+				<li class='list-group-item text-muted '><h4><small>Direito</small><br>??</h4></li>
+
+</ul>
 <div class="faixa mt-lg-5 mb-lg-5" id='contatos'></div>
 <h1 class='text text-warning text-uppercase text-center'>Contatos</h1>
 
@@ -380,7 +396,7 @@
 		<h2 class='text text-warning'>Envie-me um e-mail</h2>
 
 	<div class='form-group'>
-  <input type="email" class='form-control' name="email" placeholder="Seu email">
+  <input type="email" class='form-control' id='email' name="email" placeholder="Seu email">
   </div>
   	<div class='form-group'>
 
@@ -394,7 +410,7 @@
 
 <footer id='footer' class='col-12'>
 <h2 class=' text-warning float-left'>CurrículoWeb</h2>
-<h5 class=' text-warning float-right'>Desenvolvido por Raphael Barbosa Rodrigues</h5>
+<h5 class=' text-warning float-right'>Desenvolvido por Raphael Barbosa Rodrigues <small>(2019)</small></h5>
 </footer>
 <div><br></div>
 

@@ -2,11 +2,18 @@ body{
 	margin:0;
 	background-color:black;
 }
+.list-group-item{
+	border: 1px solid yellow;
+	background-color: rgba(0,0,0,0);
+}
 .form-control:focus{
 	background-color:rgba(1,1,1,1);
 	border: 1px solid yellow;
+	color:white;
 }
 .form-control{
+		color:yellow;
+
 	border: 0px;
 	background-color: rgba(0,0,0,0);
 	border-bottom: solid 1px yellow;
