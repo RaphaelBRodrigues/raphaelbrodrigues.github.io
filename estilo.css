@@ -244,6 +244,7 @@ h1{
 
 	#checkIcon{
 		display: inherit;
+		height:3em;
 	}
 
 	.navbar-toggler-icon{
