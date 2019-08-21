@@ -290,10 +290,28 @@ display: none;
 	float: inherit;
 
 }
+.re{
+	font-size: 2em;
+}
+.nav-item{
+	font-size: 1.5em;
+}
+.navbar-brand{
+	font-size: 1.7em;
+}
 
+h1{
+	font-size: 5em;
+}
+#s{
+	display: none;
+}
+li h4{
+	font-size: 3em;
+}
+li small{
 
-
-
+}
 }
 @media screen and (max-width: 1230px) and (min-width: 990px) {
 .navbar-toggler-icon{
