@@ -330,6 +330,9 @@ font-size: 20em;
 	border: 1px solid yellow;
 	color:white;
 }
+	#toggle{
+	height:3em;
+	}
 }
 @media screen and (max-width: 1230px) and (min-width: 990px) {
 .navbar-toggler-icon{
