@@ -117,6 +117,12 @@ border:2px double green;
 	border:5px double green;
 
 }
+.btn-main{
+	font-weight: 	100;
+	border: 	1px solid yellow;
+	border-radius: 	3px;
+	background-color: 	rgba(0,0,0,0.8);
+}
  #btn-main1{
  	transition-duration:1s;
  	transition-timing-function:linear;
@@ -235,19 +241,27 @@ div ul li{
 h1{
 	font-size: 2em;
 }
+
+.btn-main{
+	font-weight: 	100;
+	border: 	1px solid yellow;
+	border-radius: 	3px;
+	background-color: 	rgba(0,0,0,0.8);
+}
 	#btn-main1{
 		transition-duration: 0.5s;
-		left: 13em;
+		margin-left: 5.5em;
 	}#btn-main2{
-	left:35em;
+
+		margin-right: 2em;
 	}
 
 	#checkIcon{
 		display: inherit;
-		height:3em;
+		font-size:3em;
 	}
 
-	.navbar-toggler-icon{
+	.navbar-toggler{
 		display: inherit;
 		height:3em;
 		padding: 2px;
@@ -334,6 +348,12 @@ font-size: 20em;
 	#toggle{
 	height:3em;
 	}
+	.sm{
+		font-size: 3em;	
+	}
+	.mm{
+	font-size: 	3em;
+}
 }
 @media screen and (max-width: 1230px) and (min-width: 990px) {
 .navbar-toggler-icon{
