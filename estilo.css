@@ -83,6 +83,9 @@ color:black;
 	background-size: 99%;
 	opacity:1;
 }
+
+
+}
 #portifolio{
 	z-index: 90;
 }
@@ -178,6 +181,7 @@ display: none;
 
 }
 #qr:hover ~ #container-qr{
+
 background-image:url();
 border: 2px double green;
 background-color: white;
