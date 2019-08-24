@@ -1,4 +1,6 @@
+#Site Pessoal/Personal WebSite
 
-<center>(https://raphaelbrodrigues.github.io/)</center>
+Scan Me
 <img src='images/QR.png'/>
-Currículo Web 
+
+
