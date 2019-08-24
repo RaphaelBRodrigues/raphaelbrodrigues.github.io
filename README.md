@@ -1,6 +1,6 @@
 # raphaelbrodrigues.github.io
 
-<body style='background-color:black;'>
+(https://raphaelbrodrigues.github.io/)
 <img src='images/QR.png'/>
-Currículo em desenvolvimento 
-</body>
+Currículo Web 
+
