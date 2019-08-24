@@ -172,7 +172,7 @@ display: none;
 	 width:100%;
 }
 #qr:hover{
-	transform: scale(1.2);
+	transform: scale(1.4);
 	opacity: 1;
 	border: 8px double green;
 
