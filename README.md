@@ -1,6 +1,6 @@
 # Site Pessoal/Personal WebSite
 
 Scan Me
-<img src='images/QR.png'/>
+<img width="200" height="200" src='images/QR.png'/>
 
 
