@@ -1,9 +1,6 @@
 # raphaelbrodrigues.github.io
-<style>
-body{background-color:black;
-}
-  </style>
-<body>
+
+<body style='background-color:black;'>
 <img src='images/QR.png'/>
 Currículo em desenvolvimento 
 </body>
