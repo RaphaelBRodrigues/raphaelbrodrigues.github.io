@@ -20,6 +20,7 @@ function rel(){
  var dt = new Date();
  var hora = dt.getHours() +":"+ dt.getMinutes() +":"+ dt.getSeconds();
  $("#ho").text(hora);
+ $("#nav-clock").val(hora);
 }
 setInterval(function(){rel()},50);
  window.addEventListener("load",load);

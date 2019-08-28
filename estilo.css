@@ -3,7 +3,13 @@ body{
 	background-color:black;
   cursor: crosshair;
 }
-#clock{
+#nav-clock{
+	color: yellow;
+	font-family: calibri;
+	width: 5em;
+	text-align: center;
+}
+.clock{
 	background-color: rgba(0,0,0,0);
 	border: 1px solid yellow;
 width: 15em;
