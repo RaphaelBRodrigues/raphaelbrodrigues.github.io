@@ -4,12 +4,12 @@ body{
   cursor: crosshair;
 }
 #preto{
-	transition-duration: 0s;
+	transition-duration: 0.3s;
 	position: absolute;
 
 }
 .loading{
-	transition-duration: 0s;
+	transition-duration: 0.3s;
 	background-color:rgba(0,0,0,0.9);
 	position: fixed;
 	z-index: 999;
@@ -54,7 +54,7 @@ background-image: url('images/logo.jpg');
 }
 form{
   cursor: cell;
-	
+
 }
 .list-group-item{
 	border: 1px solid yellow;
@@ -423,7 +423,7 @@ font-size: 20em;
 	height:3em;
 	}
 	.sm{
-		font-size: 3em;	
+		font-size: 3em;
 	}
 	.mm{
 	font-size: 	3em;

@@ -7,8 +7,10 @@ function FinishLoad(){
 function load(){
  $("#preto").addClass("loading");
 
-setInterval(function(){FinishLoad()},2000);
+$(document).ready(function(){
+	setInterval(function(){FinishLoad()},2000);
+
+});
 
 }
  window.addEventListener("load",load);
-
