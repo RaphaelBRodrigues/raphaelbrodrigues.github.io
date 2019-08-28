@@ -5,6 +5,7 @@ body{
 }
 #preto{
 	transition-duration: 0s;
+	position: absolute;
 
 }
 .loading{
@@ -18,7 +19,7 @@ body{
 }
 .acabou{
 		transition-duration: 1s;
-
+position: relative;
 	display: none;
 	z-index: -3;
 	opacity: 0;
