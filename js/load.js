@@ -5,6 +5,9 @@ function FinishLoad(){
 
 }
 function load(){
+	// $("#max-qr").css("display","none");
+	// $("#max-qr").addClass("acabou");
+
  $("#preto").addClass("loading");
 
 
