@@ -2,5 +2,5 @@
 function contrate(){
 	alert("Muito obrigado!");
 
-	document.getElementById("email").value = "Quero te contratar!!";
+	document.getElementById("tit-emai").value = "Quero te contratar!!";
 }
