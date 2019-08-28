@@ -1,6 +1,7 @@
  $(document).ready(function(){
 	  	  	 	verde(document.getElementById('inicio'));
-window.scroll(5);
+// window.scroll(5);
+$('html, body').animate({scrollTop:0}, 'slow');
 
 
  });
@@ -8,7 +9,7 @@ window.scroll(5);
  	var novo;
 var velho;
 
- 	
+
 
 
 function verde(res){
@@ -23,7 +24,7 @@ function  backcolor(res){
 
  function  color(id){
  	//Inicializa a váriavel
- 	
+
 if (velho == null) {
 velho = document.getElementById("ghost");
 console.log(velho);
@@ -43,7 +44,7 @@ console.log(velho);
 
   	 	}
  	  if (velho !== novo && novo !== document.getElementById('inicio')) {
- 	  	
+
  	  	//Pinta o velho elemento de cinza
 	  			backcolor(velho);
 	  			backcolor(document.getElementById('inicio'));
