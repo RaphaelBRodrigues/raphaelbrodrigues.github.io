@@ -3,6 +3,54 @@ body{
 	background-color:black;
   cursor: crosshair;
 }
+#preto{
+	transition-duration: 0s;
+
+}
+.loading{
+	transition-duration: 0s;
+	background-color:rgba(0,0,0,0.9);
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+
+}
+.acabou{
+		transition-duration: 1s;
+
+	display: none;
+	z-index: -3;
+	opacity: 0;
+}
+
+
+#load{/*
+	border:2em double yellow;
+	border-radius: 10em;
+	top: 10em;
+	left: 38em;
+	position: absolute;
+	height: 20em;
+	width: 20em;*/
+		margin-top: 10em;
+		background-repeat: no-repeat;
+background-size:100%;
+padding-top: 2em;
+background-image: url('images/logo.jpg');
+	 border: 16px solid black;
+	 border-top: 16px solid green;
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+  animation: giro 2s linear infinite;
+}
+
+
+@keyframes giro {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 form{
   cursor: cell;
 	

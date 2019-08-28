@@ -1,5 +1,6 @@
 var imgAtual;
 function trocaImg(){
+
 	//Toda a vez que a função trocaImg é ativa a váriavel la de baixo que antes era 0 ganha mais 1
 	imgAtual++;
 if (imgAtual>5) {
