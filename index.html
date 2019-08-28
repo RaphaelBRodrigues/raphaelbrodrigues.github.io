@@ -11,6 +11,7 @@
 
 <script type="text/javascript" src='js/menu.js'></script>
 <script type="text/javascript" src='js/contrate.js'></script>
+<script type="text/javascript" src='js/qr.js'></script>
 <script type="text/javascript" src='js/link.js'></script>
 <script type="text/javascript" src='js/scroll.js'></script>
 
@@ -88,7 +89,12 @@
 </ul>
 </nav>
 
-<div id='preto'  >
+
+<div id='max-qr' class='acabou'>
+	<img src='images/QR.png'  id='max-img' class='img-thumbnail' title="QR Para este WebSite" alt='QR CODE'>
+</div>
+
+<div id='preto'>
 	<center>
 	<div id='load' class='container py-auto mx-auto'>
 		</center>
@@ -99,15 +105,15 @@
 </div>
 </div>
 
-<div class='img-thumbnail   col-1 px-1 py-1 ml-3' id='container-qr'>
-	<img src='images/QR.png' id='qr' class='img-thumbnail' title="QR Para este WebSite" alt='QR CODE'>
+<div onmouseover='maxQr()' onmouseout="minQr()" class='img-thumbnail    col-1 px-1 py-1 ml-3' id='container-qr'>
+	<img  onmouseover='maxQr()' onmouseout="minQr()" src='images/QR.png' id='qr' class='img-thumbnail' title="QR Para este WebSite" alt='QR CODE'>
 </div>
 
 
 <div id='main'>
 	<div class="img-fluid parallax" id='code'>
-
 		<img class='d-block mx-auto'  src="images/foto.jpg" id='foto'  alt="">
+
 		<a href="images/favicon.png" download></a><button  type="button" class='btn btn-info btn-main float-left py-2 px-2 '  id='btn-main1'  name="button"><h3 class='sm'>Currículo</h3></button>
 		<a href="#em" onclick="contrate()"><button type="button" onclick="contrate()" class='btn btn-success btn-main  py-2 px-2 float-right'  id='btn-main2' name="button"><h3 class='sm mm'>Contrate-me</h3></button></a>
 
@@ -326,9 +332,9 @@
 <ul class='list-group col-lg-7 col-sm-11
 mb-sm-5 mx-auto'>
 
-	<li class='list-group-item text-warning'><h4><small>Ensino Fundamental:</small><br>Escola Adventista Thiago White(2005-2016)</h4></li>
+<a href="https://eatw.educacaoadventista.org.br/">	<li class='list-group-item text-warning'><h4><small>Ensino Fundamental:</small><br>Escola Adventista Thiago White(2005-2016)</h4></li></a>
  <Br>
-	<li class='list-group-item text-warning '><h4><small>Ensino Médio Técnico:</small><br>UNASP(2017-2019)</h4></li>
+	<a class='link' href="https://unasp.mrooms.net/login/index.php">	<li class='list-group-item text-warning '><h4><small>Ensino Médio Técnico:</small><br>UNASP(2017-2019)</h4></li></a>
 <br>
 		<li class='list-group-item text-muted '><h4><small>Ciência da computação</small><br>??</h4></li>
 		<br>
