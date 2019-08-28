@@ -236,6 +236,7 @@ animation: borda 3s linear infinite;
 	75%{border: 5px solid blue;}
 	100%{border: 4px double lightblue;}
 }
+
 #foto:hover{
 
 	transform:rotate(360deg) scale(1.2);
@@ -261,9 +262,26 @@ animation: borda 3s linear infinite;
 
 
 }
+
+.cursos{
+	text-decoration-color: green;
+	transition-duration: 0.2s;
+	color:green;
+}
+.cursos:hover{
+	animation: bordaCurso 3s linear infinite;
+
+}
+@keyframes bordaCurso {
+50%{border:1px solid black;}
+25%{border:1px solid gray;}
+0%{border:1px solid green;}
+75%{border:1px solid gray;}
+100%{border:1px solid black;}
+}
+
 #foto:hover ~ #btn-main1{
  	transition-duration:2s;
-
 	transform:rotate(-30deg) scale(1.2);
 	border:5px double green;
 
