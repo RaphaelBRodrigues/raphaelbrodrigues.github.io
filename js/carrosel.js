@@ -2,7 +2,7 @@ var imgAtual;
 function trocaImg(){
 	//Toda a vez que a função trocaImg é ativa a váriavel la de baixo que antes era 0 ganha mais 1
 	imgAtual++;
-if (imgAtual>2) {
+if (imgAtual>5) {
 	//Se a váriavel for maior que o número de imagens(no caso 2) ele retorna para a imagem 1
 	imgAtual = 1;
 
