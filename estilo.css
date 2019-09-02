@@ -6,7 +6,10 @@ body{
 no-link{
 text-decoration:none;
 }
-
+.nav-link:hover{
+color:green;
+	transition-duration:0.5s;
+}
 .zerado{
 	animation: zerado ease-out 7s;
 
