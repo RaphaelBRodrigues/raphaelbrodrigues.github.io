@@ -6,10 +6,12 @@ body{
 no-link{
 text-decoration:none;
 }
-.potenciaReal{
-	animation: zerado ease-out 6s;
+
+.zerado{
+	animation: zerado ease-out 7s;
+
 }
-.col-0{
+.zero{
 	animation: zero ease-in-out 12s;
 
 }

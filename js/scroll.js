@@ -1,6 +1,6 @@
 $(window).scroll(function(){
 
-	
+
 if ($(document).scrollTop() < $("#resumo").position().top) {
 	//Inicio
 	var el = document.getElementById("inicio");
@@ -34,10 +34,13 @@ if ($(document).scrollTop() >= $("#resumo").position().top) {
 if ($(document).scrollTop() >= $("#habilidades").position().top) {
 	//Habilidades
 		if ($(document).scrollTop() < $("#portifolio").position().top) {
-
+			$(".potenciaReal").addClass("zerado");
+			$(".col-0").addClass("zero");
 	var el = document.getElementById("habilidadess");
 	verde(el);
 }else{
+	$(".potenciaReal").removeClass("zerado");
+	$(".col-0").removeClass("zero");
 		backcolor(document.getElementById("habilidadess"));
 
 }
