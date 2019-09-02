@@ -10,7 +10,7 @@ text-decoration:none;
 	animation: zerado ease-out 6s;
 }
 .col-0{
-	animation: zero ease-out 12s;
+	animation: zero ease-in-out 12s;
 
 }
 
