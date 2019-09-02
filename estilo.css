@@ -1,10 +1,26 @@
 body{
 	margin:0;
 	background-color:black;
-  cursor: crosshair;
+  /* cursor: crosshair; */
 }
 no-link{
 text-decoration:none;
+}
+.potenciaReal{
+	animation: zerado ease-out 6s;
+}
+.col-0{
+	animation: zero ease-out 6s;
+
+}
+
+@keyframes zero {
+	0%{width: 0%;}
+		100%{width: 0%;}
+}
+@keyframes zerado {
+	0%{width: 0%;}
+		100%{width: 100%;}
 }
 #wel{
 	border-bottom: 1px solid yellow;
