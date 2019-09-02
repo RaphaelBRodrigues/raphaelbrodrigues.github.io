@@ -7,7 +7,7 @@ no-link{
 text-decoration:none;
 }
 .nav-link{
-animation:cabecalho 3s ease-out;
+animation:cabecalho ease-out  3s;
 }
 @keyframes cabecalho{
 	0%{opacity:0;}
