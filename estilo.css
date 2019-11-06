@@ -551,3 +551,7 @@ font-size: 20em;
 	display: none;
 
 }
+	#portifolio{
+	z-index: 90;
+	margin-bottom:2em;
+}
