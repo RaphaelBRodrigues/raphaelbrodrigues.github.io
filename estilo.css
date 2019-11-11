@@ -2,7 +2,14 @@ body{
 	margin:0;
 	background-color:black;
   /* cursor: crosshair; */
+	transition-duration:1s;
+
 }
+btn a{
+	text-decoration: none;
+	color:white;
+}
+
 no-link{
 text-decoration:none;
 }
@@ -265,11 +272,11 @@ animation: borda 3s linear infinite;
 }
 
 @keyframes borda {
-	0%{border: 4px solid green;}
-	25%{border: 5px solid lightgreen;}
-	50%{border: 4px solid yellow;}
-	75%{border: 5px solid blue;}
-	100%{border: 4px solid lightblue;}
+	0%{border: 2px solid green;}
+	25%{border: 2px solid black;}
+	50%{border: 2px solid yellow;}
+	75%{border: 2px solid yellow;}
+	100%{border: 2px solid green;}
 }
 
 #foto:hover{
@@ -280,19 +287,19 @@ animation: borda 3s linear infinite;
 }
 .btn-main{
 	font-weight: 	100;
-	transition-duration: 1s;
+	transition-duration: 0.3s;
 	border: 	1px solid yellow;
-	border-radius: 	6px;
-	background-color: 	rgba(0,0,0,0.8);
+	border-radius: 	2px;
+	background-color: 	rgba(0,0,0,0.9);
 }
  #btn-main1{
- 	transition-duration:2s;
-	margin-left: 10em;
+ 	transition-duration:0.3s;
+	margin-left: 20%;
 
 }
 #btn-main2{
-		margin-right: 10em;
- 	transition-duration:1s;
+		margin-right: 20%;
+ 	transition-duration:0.3s;
 
 
 
@@ -316,7 +323,7 @@ animation: borda 3s linear infinite;
 }
 
 #foto:hover ~ #btn-main1{
- 	transition-duration:2s;
+ 	transition-duration:1s;
 	transform:rotate(-30deg) scale(1.2);
 	border:5px double green;
 
@@ -442,7 +449,8 @@ h1{
 	#btn-main1{
 		transition-duration: 0.5s;
 		margin-left: 5.5em;
-	}#btn-main2{
+	}
+	#btn-main2{
 
 		margin-right: 2em;
 	}
