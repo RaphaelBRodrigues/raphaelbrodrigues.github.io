@@ -7,7 +7,7 @@ body{
 }
 btn a{
 	text-decoration: none;
-	color:white;
+	color:none;
 }
 
 no-link{
@@ -290,9 +290,18 @@ animation: borda 3s linear infinite;
 	transition-duration: 0.3s;
 	border: 	1px solid yellow;
 	border-radius: 	2px;
+	color:white;
+	text-decoration: none;
 	background-color: 	rgba(0,0,0,0.9);
 }
+.sm{
+	transition-duration:1s;
+text-decoration: none;
+	color: white;
+}
  #btn-main1{
+	 color:white;
+text-decoration: none;
  	transition-duration:0.3s;
 	margin-left: 20%;
 
