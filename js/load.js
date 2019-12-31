@@ -19,9 +19,13 @@ $(document).ready(function(){
 }
 
 function rel(){
-
  var dt = new Date();
- var hora = dt.getHours() +":"+ dt.getMinutes() +":"+ dt.getSeconds();
+ var min = dt.getMinutes();
+
+ if(min<10){
+	  min = "0"+min;
+ }
+ var hora = dt.getHours() +":"+ min +":"+ dt.getSeconds();
  $("#ho").text(hora);
  $("#nav-clock").val(hora);
 }
