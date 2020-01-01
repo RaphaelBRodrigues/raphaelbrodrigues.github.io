@@ -331,6 +331,7 @@ text-decoration: none;
 }
 
 .cursos{
+text-align: left;
 	text-decoration-color: green;
 	transition-duration: 0.2s;
 	color:green;
