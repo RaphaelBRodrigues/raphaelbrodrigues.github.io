@@ -5,6 +5,7 @@ body{
 	transition-duration:1s;
 
 }
+
 .prog{
 	transition-duration: 3s;
 	animation:progr 4s linear infinite ;
@@ -586,4 +587,9 @@ font-size: 20em;
 	#portifolio{
 	z-index: 90;
 	margin-bottom:2em;
+}
+.grad-icon{
+	height: 6em;
+	font-size: 6em;
+}
 }
