@@ -5,6 +5,21 @@ body{
 	transition-duration:1s;
 
 }
+.prog{
+	transition-duration: 3s;
+	animation:progr 4s linear infinite ;
+}
+@keyframes progr{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(-360deg);
+	}
+}
+.text-h1{
+	text-align: center;
+}
 btn a{
 	text-decoration: none;
 	color:none;
