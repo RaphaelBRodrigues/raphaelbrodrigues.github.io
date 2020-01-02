@@ -5,7 +5,9 @@ body{
 	transition-duration:1s;
 
 }
-
+.close{
+	color:red;
+}
 .prog{
 	transition-duration: 3s;
 	animation:progr 4s linear infinite ;
@@ -94,12 +96,11 @@ border-radius: 2em;
 background-color:yellow;
 position: fixed;
 z-index: 999;
-left: auto;
-	right:auto;
+
 border: 0.4em double green;
-top: 50%;
+top: 30%;
+left: 10%;
 width: 20%;
-	position: fixed;
 }
 #preto{
 	transition-duration: 0s;
