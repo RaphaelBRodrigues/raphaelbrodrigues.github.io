@@ -329,7 +329,31 @@ text-decoration: none;
 
 
 }
+.mod{
+	background-color:rgba(0,0,0,0.7);
+	color:white;
+}
 
+.modal-body{
+	border: solid green 1px;
+
+	border-top: 0px solid black;
+	border-bottom: 0px solid #000;
+}
+.mod iframe{
+	height: 3em;
+	width: 5em;
+}
+.modal-footer{
+	border: solid green 1px;
+	border-top: 0px solid #000;
+
+}
+.modal-header{
+	border: solid green 1px;
+
+	border-bottom: 0px solid #000;
+}
 .cursos{
 text-align: left;
 	text-decoration-color: green;
@@ -585,6 +609,8 @@ font-size: 20em;
 	display: none;
 
 }
+
+
 	#portifolio{
 	z-index: 90;
 	margin-bottom:2em;
@@ -592,4 +618,26 @@ font-size: 20em;
 .grad-icon{
 	font-size: 1.3em;
 }
+
+h1{
+
+}
+h2{
+font-size: 2.5em;
+}
+h3{
+font-size: 2em;
+}
+h4{
+font-size: 1.8em;
+	
+}
+h5{
+
+}
+h6{
+	font-size: 1.4em;
+}
+
+
 }
