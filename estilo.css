@@ -5,6 +5,37 @@ body{
 	transition-duration:1s;
 
 }
+button span{
+	animation: iconcor infinite 8s linear;
+
+}
+h2 button i{
+
+	  /* clip hackery */
+		animation: iconcor infinite 8s linear;
+	}
+	@keyframes iconcor {
+		0%{
+color:green;
+
+}
+25%{
+color:yellow;
+
+}
+50%{
+color:green;
+
+}
+75%{
+color:yellow;
+
+}
+100%{
+color:green;
+
+}
+	}
 .close{
 	color:red;
 }
@@ -198,8 +229,6 @@ margin-top: 0em;
 	border-radius: 1em;
 	background-color: black;
 	border: 1px solid yellow;
-	overflow: auto;
-	padding: 1em;
 }
 .sp{
 	font-size: 0.6em;
@@ -330,6 +359,7 @@ text-decoration: none;
 
 
 }
+
 .mod{
 	background-color:rgba(0,0,0,0.7);
 	color:white;
@@ -387,6 +417,7 @@ text-align: left;
 	border:5px double green;
 
 }
+
 .navbar-brand{
 	transition-duration:1s;
 }
@@ -631,7 +662,7 @@ font-size: 2em;
 }
 h4{
 font-size: 1.8em;
-	
+
 }
 h5{
 
