@@ -5,6 +5,12 @@ body{
 	transition-duration:1s;
 
 }
+.text-uppercase{
+	font-weight: 800;
+}
+.info-icon{
+	font-size: 2em;
+}
 .modal-title{
 	font-size: 1.5em;
 }
@@ -67,6 +73,9 @@ btn a{
 
 
 .nav-link{
+animation:cabecalho ease-out  3s;
+}
+.navcab{
 animation:cabecalho ease-out  3s;
 }
 @keyframes cabecalho{
