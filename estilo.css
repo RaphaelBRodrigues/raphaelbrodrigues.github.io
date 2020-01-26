@@ -5,6 +5,12 @@ body{
 	transition-duration:1s;
 
 }
+.rep .row h3{
+	font-weight: bold;
+}
+.rep .row span{
+	font-weight: 200;
+}
 .text-uppercase{
 	font-weight: 800;
 }
