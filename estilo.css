@@ -319,10 +319,22 @@ color:black;
 }
 .container-habilidades{
 	background-color: rgba(255,255,255,0.1);
+	box-shadow: 0 0 5px green;
+
+
+}
+.container-habilidades:hover{
+	box-shadow: 0 0 40px green;
+
 
 }
 .container-resumo{
+	box-shadow: 0 0 5px green;
+
 	background-color: rgba(255,255,255,0.1);
+}
+.container-resumo:hover {
+	box-shadow: 0 0 40px green;
 }
 .download{
 top: 0.15em;
@@ -440,8 +452,13 @@ text-align: left;
 	text-decoration-color: green;
 	transition-duration: 0.2s;
 	color:green;
+	box-shadow: 0 0 5px yellow;
+
 }
+
 .cursos:hover{
+	box-shadow: 0 0 20px yellow;
+
 	animation: bordaCurso 3s linear infinite;
 
 }
