@@ -325,7 +325,9 @@ color:black;
 	background-color: rgba(255,255,255,0.1);
 }
 .download{
-top: 0.13em;
+top: 0.15em;
+font-size: 1.1em;
+
 position: relative;
 
 }
@@ -362,27 +364,33 @@ animation: borda 3s linear infinite;
 
 }
 .btn-main{
-	transition-duration: 0.3s;
+	background-image: linear-gradient(to right,black,black);
+	transition-duration: 0.8s;
 	border: 	1px solid yellow;
 	border-radius: 	2px;
 	color:white;
 	text-decoration: none;
-	background-color: 	rgba(0,0,0,0.9);
+	/* background-color: 	rgba(0,0,0,0.5); */
 }
 .sm{
 	transition-duration:1s;
 text-decoration: none;
 	color: white;
+	font-size: 2.0em;
+	font-weight: 700;
+	text-decoration: none;
 }
  #btn-main1{
+	 text-decoration: none;
+
 	 box-sizing: border-box;
 	 color:white;
 text-decoration: none;
- 	transition-duration:0.3s;
+transition-duration: 0.8s;
 
 }
 #btn-main2{
- 	transition-duration:0.3s;
+	transition-duration: 0.8s;
 
 
 
@@ -464,6 +472,9 @@ display: none;
 #main{
  height: 30em;
 	 width:100%;
+}
+#btn-main1:hover{
+background-image:linear-gradient(to right,black,black,gray);
 }
 #qr:hover{
 	transform: scale(1.4);
@@ -552,14 +563,9 @@ h1{
 .btn-main{
 	border: 	1px solid yellow;
 	border-radius: 	3px;
-	background-color: 	rgba(0,0,0,0.8);
+	background-color: 	rgba(0,0,0,0.0);
 }
-	#btn-main1{
-		transition-duration: 0.5s;
-	}
-	#btn-main2{
 
-	}
 
 	#checkIcon{
 		display: inherit;
@@ -695,7 +701,7 @@ li h4{
 }
 .but{
 	font-size: 3em;
-	margin-top: 7.5em;
+	margin-top: 2.7em;
 }
 #foto{
 	top: 7.5em;
