@@ -12,7 +12,7 @@ function load(){
 
 
 $(document).ready(function(){
-	setInterval(function(){FinishLoad()}2000);
+	setInterval(function(){FinishLoad()},2000);
 
 });
 
