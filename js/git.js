@@ -44,7 +44,11 @@ $("#commit-foto").attr("src","images/commit.png");
 
 }
 else if(data[0].type == "CreateEvent"){
+
 //Criação de repositório
+$("#commit-des").text("Criação do repositório");
+$("#commit-id").text("----------");
+
 
 $("#commit-foto").attr("src","images/create.png");
 }else{
