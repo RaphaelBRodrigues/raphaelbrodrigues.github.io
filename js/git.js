@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 
 var urlApi = "https://api.github.com/users/RaphaelBRodrigues/events";
+var urlUser = "https://github.com/RaphaelBRodrigues/";
 
 $.ajax({
 url : urlApi,
@@ -22,6 +23,13 @@ success : function(data){
   var repos2 = reposAPI2.split("/");
   var repos3 = reposAPI3.split("/");
   var repos4 = reposAPI4.split("/");
+
+
+var urlRep1 = urlUser+repos1[1];
+var urlRep2 = urlUser+repos2[2];
+var urlRep3 = urlUser+repos3[3];
+var urlRep4 = urlUser+repos4[4];
+
 
 $("#commit-id").text(data[0].payload.push_id);
 $("#commit-vend").text(repos[0]);
@@ -48,6 +56,7 @@ $("#commit-vend4").text(repos4[0]);
 $("#commit-rep4").text(repos4[1]);
 $("#commit-des4").text(data[4].payload.commits[0].message);
 
+// $("#commit-link").attr("href","www.google.com");
 
 
 // $("#commit-des").text(data[0].payload.commits[0].sha);

@@ -314,13 +314,19 @@ Principais Funções:<br>
 </div>
 
 
-<div id='main'>
-	<div class="img-fluid parallax" id='code'>
-		<img class='d-block mx-auto'  src="images/foto.jpg" id='foto'  alt="">
+<div id='main  bg-warning'>
+	<div class="img-fluid parallax container-fluid" id='code'>
+		<div class="row ">
 
-		<button id='btn-main1' type="button" class='btn btn-info btn-main float-left py-2 px-2 '  name="button"><a href="RaphaelBRodrigusCV.pdf" download><h3 class='sm'>Currículo</h3></a></button>
-	<button type="button" id='btn-main2' onclick="contrate()" class='btn btn-success btn-main  py-2 px-2 float-right'   name="button">	<a href="#em" onclick="contrate()" ><h3 class='sm mm'>Contrate-me</h3></a></button>
+		<img class='d-block mx-auto '  src="images/foto.jpg" id='foto'  alt="">
 
+		</div>
+		<div class="row but">
+
+		<button id='btn-main1' type="button" class='btn btn-info btn-main  mx-auto  py-3 px-2 '  name="button"><a href="RaphaelBRodrigusCV.pdf"  download><h3 class='sm pr-3 '>
+			<i class='material-icons pr-2 download'>file_download</i>Currículo</h3></a></button>
+	 <!-- <button type="button" id='btn-main2' onclick="contrate()" class='btn  mx-auto btn-success btn-main  py-2 px-2 '   name="button">	<a href="#em" onclick="contrate()" ><h3 class='sm'>Contrate-me</h3></a></button> -->
+	</div>
 	</div>
 </div>
 <div class='faixa' id='resumo'></div>
@@ -580,8 +586,7 @@ Principais Funções:<br>
 
 <div class="faixa mt-lg-5 mt-sm-5 mb-lg-5 mx-auto" id='commits'></div>
 <h1 class='text text-warning mt-sm-1 mb-sm-5 mx-auto text-uppercase mb-lg-5 text-center'>Últimos commits</h1>
-
-<div id='contgit' class="container pl-3 pr-3 pt-3 pb-3   cursos text-warning col-9">
+<div onclick="redirecionarCommit(this.id)" id='contgit' class="container pl-3 pr-3 pt-3 pb-3   cursos text-warning col-9">
 <div class="row ">
 
 	<img src="https://cdn1.iconfinder.com/data/icons/data-communication-colorful/48/code_file-512.png" class='img col-2' id='commit-foto' alt="">
@@ -607,7 +612,6 @@ Principais Funções:<br>
 </div>
 
 </div>
-
 </div>
 </div>
 <br>
