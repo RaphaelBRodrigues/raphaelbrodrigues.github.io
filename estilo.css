@@ -11,7 +11,7 @@ body{
  transition-duration: 0.3s;
 border: 0px;
 }
-.
+
 h5{
 	font-weight: 600;
 }
@@ -765,5 +765,14 @@ li h4{
 .tam{
 	font-weight: 800;
 	font-size:5em;
+}
+.info-icon{
+	border: 0px black;
+}
+.btn-icon-info{
+	background-size: 200%;
+ background-image:linear-gradient(to right,black,black);
+ transition-duration: 0.3s;
+border: 0px black;
 }
 }
