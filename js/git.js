@@ -117,26 +117,34 @@ $("#commit-id").text(data[0].payload.push_id);
 $("#commit-vend").text(repos[0]);
 $("#commit-rep").text(repos[1]);
 $("#commit-des").text(data[0].payload.commits[0].message);
+$("#commit-link").attr("href", urlRep);
+
+
 
 $("#commit-id1").text(data[1].payload.push_id);
 $("#commit-vend1").text(repos1[0]);
 $("#commit-rep1").text(repos1[1]);
 $("#commit-des1").text(data[1].payload.commits[0].message);
+$("#commit-link1").attr("href", urlRep1);
 
 $("#commit-id2").text(data[2].payload.push_id);
 $("#commit-vend2").text(repos2[0]);
 $("#commit-rep2").text(repos2[1]);
 $("#commit-des2").text(data[2].payload.commits[0].message);
+$("#commit-link2").attr("href", urlRep2);
+
 
 $("#commit-id3").text(data[3].payload.push_id);
 $("#commit-vend3").text(repos3[0]);
 $("#commit-rep3").text(repos3[1]);
 $("#commit-des3").text(data[3].payload.commits[0].message);
+$("#commit-link3").attr("href", urlRep3);
 
 $("#commit-id4").text(data[4].payload.push_id);
 $("#commit-vend4").text(repos4[0]);
 $("#commit-rep4").text(repos4[1]);
 $("#commit-des4").text(data[4].payload.commits[0].message);
+$("#commit-link4").attr("href", urlRep4);
 
 // $("#commit-link").attr("href","www.google.com");
 

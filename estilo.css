@@ -17,6 +17,11 @@ border: 0px;
 h5{
 	font-weight: 600;
 }
+.material-icons{
+}
+.text-uppercase{
+	letter-spacing: 0.3em;
+}
 
 .dat{
 	font-weight: 500;
@@ -25,6 +30,7 @@ h5{
 .tam{
 	font-weight: 800;
 	font-size:3em;
+	letter-spacing: 0.1em;
 }
 
 .rep .row h3{
@@ -42,7 +48,7 @@ h5{
 .modal-title{
 	font-size: 1.5em;
 }
-button span{
+button span,.info-icon{
 	animation: iconcor infinite 8s linear;
 
 }
@@ -790,5 +796,11 @@ li h4{
  background-image:linear-gradient(to right,black,black);
  transition-duration: 0.3s;
 border: 0px black;
+}
+.container-habilidades h4{
+	font-size: 1.7em;
+}
+.container-habilidades h6{
+	font-size: 1.4em;
 }
 }
