@@ -2,6 +2,8 @@ body{
 	margin:0;
 	background-color:black;
   /* cursor: crosshair; */
+	transition-timing-function: linear;
+
 	transition-duration:1s;
 
 }
@@ -237,6 +239,7 @@ form{
   cursor: cell;
 
 }
+
 .list-group-item{
 	border: 1px solid yellow;
 	background-color: rgba(0,0,0,0);
@@ -383,16 +386,27 @@ position: relative;
 width: 17em;
 transition-duration:1s;
 background-color: black;
-border:2px double green;
-animation: borda 3s linear infinite;
+border:1px double black;
+ animation: borda 3s linear infinite;
+box-shadow: 0px 0px 40px green;
 }
 
 @keyframes borda {
-	0%{border: 2px solid green;}
-	25%{border: 2px solid black;}
-	50%{border: 2px solid yellow;}
-	75%{border: 2px solid yellow;}
-	100%{border: 2px solid green;}
+	0%{border: 1px solid green;
+		box-shadow: 0px 0px 40px green;
+}
+	25%{border: 1px solid black;
+		box-shadow: 0px 0px 40px black;
+}
+	50%{border: 1px solid yellow;
+		box-shadow: 0px 0px 40px yellow;
+}
+	75%{border: 1px solid yellow;
+		box-shadow: 0px 0px 40px yellow;
+}
+	100%{border: 1px solid green;
+		box-shadow: 0px 0px 40px green;
+}
 }
 
 #foto:hover{
@@ -411,6 +425,9 @@ animation: borda 3s linear infinite;
 	box-shadow:0px 0px 10px yellow;
 
 	text-decoration: none;
+}
+#main-download{
+content: "sxdsa";
 }
 .btn-main:hover{
 	background-image:linear-gradient(to right,black,black,black,black,black,yellow,yellow);
@@ -496,14 +513,14 @@ text-align: left;
 100%{border:1px solid black;}
 }
 
-/* #foto:hover ~ #btn-main1{
+ #foto:hover ~ #btn-main1{
  	transition-duration:1s;
 	transform:rotate(-30deg) scale(1.2);
 	border:5px double green;
 
-} */
+}
 
-#foto:hover ~ #btn-main2{
+#foto:hover  #btn-main{
  	transition-duration:1s;
 
 	transform:rotate(30deg) scale(1.2);
@@ -565,7 +582,6 @@ width: 100%;
 height: 2em;
 	background-image:url("images/tag.png");
 	background-size:2em;
-
 
 }
 .navbar-toggler-icon{
