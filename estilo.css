@@ -7,6 +7,9 @@ body{
 	transition-duration:1s;
 
 }
+#nav-clock{
+	box-shadow: 0 0 5px yellow;
+}
 .btn-icon-info{
 	background-size: 200%;
  background-image:linear-gradient(to right,black,black);
@@ -181,15 +184,23 @@ left: 10%;
 width: 20%;
 }
 #preto{
-	transition-duration: 0s;
-	transition-duration: 0s;	background-color:rgba(0,0,0,0.9);
+	transition-duration: 1s;
+
+		 background-color:rgba(0,0,0,0.90);
 position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
 	position: fixed;
+	animation: load linear 3.2s;
 
 }
+@keyframes load {
+from{opacity: 1;}
+to{opacity: 0;}
+
+}
+
 .Aparece{
 	display: inherit;
 	opacity: 1;
@@ -198,7 +209,8 @@ height: 100%;
 }
 .loading{
 
-		transition-duration: 0s;	background-color:rgba(0,0,0,0.9);
+		transition-duration: 0s;
+		/* background-color:rgba(0,0,0,0.9); */
 	position: fixed;
 	z-index: 999;
 	width: 100%;
@@ -222,6 +234,7 @@ height: 100%;
 	position: absolute;
 	height: 20em;
 	width: 20em;*/
+
 		margin-top: 10em;
 		background-repeat: no-repeat;
 background-size:100%;
@@ -733,6 +746,16 @@ li h4{
 }
 
 @media screen and (max-width:989px) {
+	.container-resumo{
+box-shadow: 0 0 10px green;
+	}
+	.container-habilidades{
+box-shadow: 0 0 10px green;
+	}
+	.cursos{
+		box-shadow: 0 0 10px yellow;
+
+	}
 	.tchau{
 		cursor: auto;
 		opacity: 0;
@@ -803,4 +826,5 @@ border: 0px black;
 .container-habilidades h6{
 	font-size: 1.4em;
 }
+
 }
