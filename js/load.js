@@ -1,7 +1,7 @@
 function FinishLoad(){
 	 $("#preto").removeClass("loading");
  $("#preto").addClass("acabou");
-
+$("body").css("overflow-y","inherit");
 
 }
 function load(){
@@ -38,6 +38,6 @@ function rel(){
  $("#nav-clock").val(hora);
 }
 setInterval(function(){rel()},50);
-	setInterval(function(){FinishLoad()},4000);
+	setInterval(function(){FinishLoad()},5100);
 
 // window.addEventListener("load",load);
