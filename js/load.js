@@ -38,4 +38,4 @@ function rel(){
  $("#nav-clock").val(hora);
 }
 setInterval(function(){rel()},50);
- window.addEventListener("load",load);
+// window.addEventListener("load",load);
