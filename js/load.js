@@ -8,7 +8,7 @@ function load(){
 	// $("#max-qr").css("display","none");
 	// $("#max-qr").addClass("acabou");
 
- $("#preto").addClass("loading");
+ //$("#preto").addClass("loading");
 
 
 $(document).ready(function(){
