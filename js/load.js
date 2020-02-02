@@ -12,7 +12,8 @@ function load(){
 
 
 $(document).ready(function(){
-	setInterval(function(){FinishLoad()},4000);
+	//Acabar com o load
+	//setInterval(function(){FinishLoad()},4000);
 
 });
 
