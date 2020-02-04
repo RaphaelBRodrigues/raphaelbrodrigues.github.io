@@ -11,7 +11,7 @@ if (imgAtual>5) {
 //Acessa o elemento code e altera o background dele com uma nova imagem que está guardada na pasta
 //Olha a váriavel imgAtual,ela muda o nome do arquivo,antes deveria ser carrosel 0
 //Ai rodou a função e a váriavel ganhou mais um então o nome do arquivo ficou carrosel1.jpg (esse 1 é a váriavel)
-	 $("#code").css("background-image","url('images/carrosel"+imgAtual+".jpg')");
+//	 $("#code").css("background-image","url('images/carrosel"+imgAtual+".jpg')");
 
 }
 

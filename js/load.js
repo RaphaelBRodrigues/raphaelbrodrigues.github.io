@@ -13,7 +13,7 @@ function load(){
 
 $(document).ready(function(){
 	//Acabar com o load
-	//setInterval(function(){FinishLoad()},4000);
+	setInterval(function(){FinishLoad()},4000);
 
 });
 
@@ -38,6 +38,6 @@ function rel(){
  $("#nav-clock").val(hora);
 }
 setInterval(function(){rel()},50);
-	setInterval(function(){FinishLoad()},5100);
+	setInterval(function(){FinishLoad()},5000);
 
 // window.addEventListener("load",load);

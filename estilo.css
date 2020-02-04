@@ -420,10 +420,14 @@ button a{
 	margin-top: 5.5em;
 }
 #foto{
+	position: relative;
+display: block;
 border-radius: 20em;
-top: 4.5em;
-position: relative;
+margin-left: auto;
+margin-right: auto;
+top: 4.9em;
 	height:17em;
+
 width: 17em;
 transition-duration:1s;
 background-color: black;
@@ -601,17 +605,42 @@ background-image:url();
 border: 2px double green;
 background-color: white;
 }
+.linux{
+	position:absolute;
+	height: 1.5em;
+	top: 5em;
+	color:green;
+}
+#linux1{
+	padding-top: 1.3em;
 
+}
+#linux2{
+	padding-top: 2.6em;
+
+}
+#linux3{
+	padding-top: 3.9em;
+
+}
+#linux4{
+	padding-top: 5.2em;
+
+}
+#linux5{
+	padding-top: 6.5em;
+
+}
 .parallax {
-  background-image: url("images/code.png");
   opacity: 0.8;
  width: 100%;
- height: 28em;
+padding-top: 1em;
   background-color: black;
   background-attachment: fixed;
-  background-position: center;
+  background-position:1em ;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 
@@ -822,9 +851,7 @@ box-shadow: 0 0 10px green;
 	font-size: 1.2em;
 	margin-top: 7.0em;
 }
-#foto{
-	top: 7.5em;
-	position: relative;}
+
 .parallax {
  height: 31em;
 
@@ -849,4 +876,14 @@ border: 0px black;
 	font-size: 1.4em;
 }
 
+.linux{
+	position:absolute;
+	height: 1.5em;
+	top: 6.9em;
+	color:green;
+}
+#foto{
+	top: 6.2em;
+
+}
 }
