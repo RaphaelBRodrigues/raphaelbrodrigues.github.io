@@ -8,6 +8,12 @@ overflow-x: hidden;
 	transition-duration:1s;
 
 }
+.grande{
+	display: inherit;
+}
+.gr-b{
+	display: none;
+}
 #nav-clock{
 	box-shadow: 0 0 5px yellow;
 }
@@ -885,5 +891,10 @@ border: 0px black;
 #foto{
 	top: 6.2em;
 
+}.gr-b{
+	display: inherit;
+}
+.grande{
+	display: none;
 }
 }
