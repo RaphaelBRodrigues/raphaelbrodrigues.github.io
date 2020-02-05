@@ -38,6 +38,6 @@ function rel(){
  $("#nav-clock").val(hora);
 }
 setInterval(function(){rel()},50);
-	setInterval(function(){FinishLoad()},00);
+	setInterval(function(){FinishLoad()},5500);
 
 // window.addEventListener("load",load);
