@@ -113,20 +113,38 @@ $("#commit-foto4").attr("src","images/create.png");
 }
 
 //Pegando o id do commit e atribuindo os primeiros 7 números do mesmo a variável com
+  
+ try{ 
 var longCom = data[0].payload.commits[0].sha;
 var com = longCom.substring(0,6);
+ }catch{}
+  
+   try{ 
 
 var longCom1 = data[1].payload.commits[0].sha;
 var com1 = longCom1.substring(0,6);
+ }catch{}
+
+     
+      try{ 
 
 var longCom2 = data[2].payload.commits[0].sha;
 var com2 = longCom2.substring(0,6);
+ }catch{}
+
+        
+         try{ 
 
 var longCom3 = data[3].payload.commits[0].sha;
 var com3 = longCom3.substring(0,6);
+ }catch{}
+
+           
+           try{ 
 
 var longCom4 = data[4].payload.commits[0].sha;
 var com4 = longCom4.substring(0,6);
+ }catch{}
 
 
 //atribuindo os valores capturados através da api aos elementos
