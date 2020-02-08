@@ -64,6 +64,8 @@ $("#commit-foto1").attr("src","images/commit.png");
 }
 else if(data[1].type == "CreateEvent"){
 //Criação de repositório
+$("#commit-des1").text("Criação do repositório");
+$("#commit-id1").text("----------");
 
 $("#commit-foto1").attr("src","images/create.png");
 }else{
@@ -78,6 +80,8 @@ $("#commit-foto2").attr("src","images/commit.png");
 }
 else if(data[2].type == "CreateEvent"){
 //Criação de repositório
+$("#commit-des2").text("Criação do repositório");
+$("#commit-id2").text("----------");
 
 $("#commit-foto2").attr("src","images/create.png");
 }else{
@@ -92,6 +96,8 @@ $("#commit-foto3").attr("src","images/commit.png");
 }
 else if(data[3].type == "CreateEvent"){
 //Criação de repositório
+$("#commit-des3").text("Criação do repositório");
+$("#commit-id3").text("----------");
 
 $("#commit-foto3").attr("src","images/create.png");
 }else{
@@ -106,6 +112,8 @@ $("#commit-foto4").attr("src","images/commit.png");
 }
 else if(data[4].type == "CreateEvent"){
 //Criação de repositório
+$("#commit-des4").text("Criação do repositório");
+$("#commit-id4").text("----------");
 
 $("#commit-foto4").attr("src","images/create.png");
 }else{
@@ -200,7 +208,7 @@ $("#commit-link4").attr("href", urlRep4);
 // $("#commit-id").text(data[0].type);
 },
 error : function(error){
-  alert("fail");
+$("#commits").text("Serviço abaixo indisponível");
   console.log("Deu ruim");
 }
 });
