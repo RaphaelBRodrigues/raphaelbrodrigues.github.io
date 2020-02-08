@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src='js/load.js'></script>
+
+<link rel="shortcut icon"href="images/favicon.png">
+<meta name="theme-color" content="#000000">
+	<script src="jquery-3.4.1.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript" src='js/menu.js'></script>
+<script type="text/javascript" src='js/idioma.js'></script>
+<script type="text/javascript" src='js/contrate.js'></script>
+<script type="text/javascript" src='js/git.js'></script>
+<script type="text/javascript" src='js/qr.js'></script>
+<script type="text/javascript" src='js/Habilidades.js'></script>
+<script type="text/javascript" src='js/linux.js'></script>
+<script type="text/javascript" src='js/link.js'></script>
+<script type="text/javascript" src='js/scroll.js'></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+				 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+				 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+				 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+				 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+					 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <script type="text/javascript" src='js/carrosel.js'></script>
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>Dev. Raphael</title>
+</head>
+<body>
+
+<nav id='nav' class="navbar navbar-expand-lg navbar-dark ">
+
+		<a onmouseover='brand()' class='navbar-brand text-warning' id='brand' href="#">Raphael Barbosa Rodrigues</a>
+
+		<input id='check' class="navbar-toggler" value="true" style='display:none' type="checkbox">
+     <label for='check' id='checkIcon' class="navbar-toggler-icon"></label>
+   </input>
+
+<div class='navbar-collapse'>
+
+<ul class='navbar-nav mx-auto text-warning'>
+	<li class='nav-item'>
+		<a class='nav-link'  id='inicio'
+		 onclick="color(this.id)" onclick='subir()' href="#">Início</a>
+	</li>
+
+<li class='nav-item'>
+	<a class='nav-link' id='resumoo' onclick="color(this.id)" href="#resumo">Resumo</a>
+</li>
+
+<li class='nav-item'>
+	<a href="#habilidades" id='habilidadess' onclick="color(this.id)" class='nav-link mr-1'>Habilidades</a>
+</li class='nav-item'>
+
+
+<li class='nav-item'>
+	<a href="#portifolio" id='portifolioo' class='nav-link mr-1' onclick="color(this.id)">Portifólio</a>
+</li class='nav-item'>
+<li class='nav-item'>
+	<a href="#formacao" id='formacaoo'  onclick="color(this.id)" class='nav-link'>Formação</a>
+</li>
+<li class='nav-item' >
+	<a href="#contatos" class='nav-link' id='contatoss' onclick="color(this.id)">Contatos</a>
+</li class='nav-item'>
+
+</ul>
+
+
+</div>
+
+<div class="navbar-collapse ">
+	<div class="container-fluid">
+<div class="row">
+
+
+	<ul class='navbar-nav mx-auto list-group-horizontal-sm'>
+		<li class='list-group-item-sm nav-item ' >
+			<a class='nav-link ' alt='linkedin' id='link' target="_blank" href="https://www.linkedin.com/in/raphael-b-rodrigues-08b02889/">
+<img src="images/linkedin.png"  class='img navcab'>
+
+</a>
+
+		</li>
+		<li class=' list-group-item-sm nav-item ml-sm-3 ' >
+<a target="_blank" href="https://github.com/RaphaelBRodrigues/"  id='link' class='nav-link'>
+<img src="images/git.png" class='img navcab'   alt="git">
+</a>
+		</li>
+
+	</ul>
+</div>
+	</div>
+</div>
+<ul class='navbar-nav mx-auto text-warning list-inline '>
+
+<li class='nav-item icon list-inline-item'>
+<input class='clock text-warning ' readonly id='nav-clock' type="text" name="" value="">
+</li>
+</ul>
+</nav>
+
+<div id='max-qr' class='acabou mx-auto text-center'>
+	<img src='images/QR.png'  id='max-img' class='img-thumbnail' title="QR Para este WebSite" alt='QR CODE'>
+</div>
+<div id='preto'>
+	<center>
+	<div id='load' class='container py-auto mx-auto'>
+		</center>
+	<center>
+				<!-- <h3 class='text text-warning' id='wel'>Bem vindo ao meu currículo!!</h3>
+		<h4 id='load-clock' class='text text-warning'>Horário Atual:<span id='ho'></span></h4> -->
+</center>
+</div>
+</div>
+
+<div class='modal container-fluid' id='certificados-idiomas'>
+	<div class="modal-dialog mod" role="document">
+		<div class="modal-content mod">
+			<div class="modal-header mod text-warning">
+				<div class="modal-title ">Certificados de Idioma</div>
+				<button data-dismiss="modal" class='close'>X</button>
+
+			</div>
+			<div class="modal-body mod">
+				<a target='_blank' href="Certificados/Certificado Inglês 001.jpg"><img src="Certificados/Certificado Inglês 001.jpg" class='cert col-3 col-sm-5' alt="Declaração CNA Inglês Pré-Avançado 2019" title='Declaração CNA Inglês Pré-Avançado 2019'></a>
+
+
+				<!-- <a href=""><img src="https://docs.google.com/uc?id=1IzmqD2b6rV-GZaiHSKmh5W0xN4URPJm1" class='cert col-3 col-sm-5' alt=""></a>	 -->
+			</div>
+			<div class="modal-footer mod text-info">
+				Em breve mais
+			</div>
+		</div>
+</div>
+</div>
+
+<div class='modal container-fluid' id='certificados-banco'>
+	<div class="modal-dialog mod" role="document">
+		<div class="modal-content mod">
+			<div class="modal-header mod text-warning">
+				<div class="modal-title ">Certificados de banco de dados</div>
+				<button data-dismiss="modal" class='close'>X</button>
+
+			</div>
+			<div class="modal-body mod">
+				<a target='_blank' href="Certificados/MySQL.pdf"><img src="Certificados/MySQL.jpeg" title="Conhecendo funções e validação de dados em PHP (DIO)"  class='cert col-3 col-sm-5' alt=""></a>
+				<!-- <a href=""><img src="https://docs.google.com/uc?id=1IzmqD2b6rV-GZaiHSKmh5W0xN4URPJm1" class='cert col-3 col-sm-5' alt=""></a>	 -->
+			</div>
+				<div class="modal-footer mod text-info">
+				Em breve mais
+			</div>
+		</div>
+</div>
+</div>
+
+<div class='modal container-fluid' id='certificados-prog'>
+	<div class="modal-dialog mod" role="document">
+		<div class="modal-content mod">
+			<div class="modal-header mod text-warning">
+				<div class="modal-title ">Certificados de linguagens de programação</div>
+				<button data-dismiss="modal" class='close'>X</button>
+
+			</div>
+			<div class="modal-body mod">
+				<a target='_blank' href="Certificados/DIO/PDF/04842BFA.pdf"><img src="Certificados/DIO/JPG/04842BFA-1.png" title="Desenvolvimento avançado em PHP (DIO)" class='cert col-3 col-sm-5' alt=""></a>
+				<a target='_blank' href="Certificados/DIO/PDF/CF795DBD.pdf"><img src="Certificados/DIO/JPG/CF795DBD-1.png" title="Conhecendo funções e validação de dados em PHP (DIO)"  class='cert col-3 col-sm-5' alt=""></a>
+
+				<a target='_blank' href="Certificados/DIO/PDF/26A22B72.pdf"><img src="Certificados/DIO/JPG/26A22B72-1.png" title="Formulários com condicionais e sessões com PHP (DIO)"  class='cert col-3 col-sm-5 mt-5' alt=""></a>
+				<a target='_blank' href="Certificados/DIO/PDF/79D7FEE6.pdf"><img src="Certificados/DIO/JPG/79D7FEE6-1.png" title="Orientação a objetos,exceçôes e bancos de dados PHP (DIO)"  class='cert col-3 col-sm-5 mt-5' alt=""></a>
+				<a target='_blank' href="Certificados/phpcursoemvideo.jpeg"><img src="Certificados/phpcursoemvideo.jpeg" title="Curso de PHP (CursoEmVideo)" class='cert col-3 mt-3 col-sm-5 mt-5' alt=""></a>
+
+</div>
+			<div class="modal-footer mod text-info">
+				Em breve mais
+			</div>
+		</div>
+</div>
+</div>
+
+<div class='modal container-fluid' id='certificados-estil'>
+	<div class="modal-dialog mod" role="document">
+		<div class="modal-content mod">
+			<div class="modal-header mod text-warning">
+				<div class="modal-title ">Certificados de linguagens de estilização e marcação</div>
+				<button data-dismiss="modal" class='close'>X</button>
+
+			</div>
+			<div class="modal-body mod">
+
+				<a target='_blank' href="Certificados/DIO/PDF/58670F4F.pdf"><img src="Certificados/DIO/JPG/58670F4F-1.png" class='cert col-3 col-sm-5' title="Programação para internet com HTML5 e CSS3" alt=""></a>
+				<a target='_blank' href="Certificados/DIO/PDF/5F297D3E.pdf"><img src="Certificados/DIO/JPG/5F297D3E-1.png" class='cert col-3 col-sm-5' title="Construindo páginas para internet com Bootstrap" alt=""></a>
+			</div>
+				<div class="modal-footer mod text-info">
+				Em breve mais
+			</div>
+		</div>
+</div>
+</div>
+
+<div class='modal container-fluid ' id='certificados-tecnologias'>
+	<div class="modal-dialog mod" role="document">
+		<div class="modal-content mod">
+			<div class="modal-header mod text-warning">
+				<div class="modal-title ">Certificados de outras ferramentas e tecnologias</div>
+				<button data-dismiss="modal" class='close'>X</button>
+
+			</div>
+			<div class="modal-body mod">
+				
+				<a target='_blank' href="Certificados/DIO/PDF/E483E52C-1.pdf"><img src="Certificados/DIO/JPG/E483E52C-1.png" class='cert col-3 col-sm-5 mt-5' title="arquitetura de sistemas Avançado" alt=""></a>
+				<a target='_blank' href="Certificados/DIO/PDF/2B9C87E1.pdf"><img src="Certificados/DIO/JPG/2B9C87E1-1.png" class='cert col-3 col-sm-5 mt-5' title="Projetos ágeis com SCRUM" alt=""></a>
+				<a target='_blank' href="Certificados/DIO/PDF/DAE9F2BE (1)-1.pdf"><img src="Certificados/DIO/JPG/DAE9F2BE (1)-1.png" class='cert col-3 col-sm-5 mt-5' title="Lógica de programação essencial" alt=""></a>
+				<a target='_blank' href="Certificados/DIO/PDF/3C33E6BD-1.pdf"><img src="Certificados/DIO/JPG/3C33E6BD-1.png" class='cert col-3 col-sm-5 mt-5' title="Fundamentos de arquitetura de sistemas" alt=""></a>
+				<a target='_blank' href="Certificados/DIO/PDF/654FB965-1.pdf"><img src="Certificados/DIO/JPG/654FB965-1.png" class='cert col-3 col-sm-5 mt-5' title="Introdução ao GitHub e comandos essenciais para trabalhar em equipe" alt=""></a>
+				<a target='_blank' href="Certificados/DIO/PDF/59424F13-1.pdf"><img src="Certificados/DIO/JPG/59424F13-1.png" class='cert col-3 col-sm-5 mt-5' title="Introdução ao Git e ao controle de versôes" alt=""></a>
+			</div>
+				<div class="modal-footer mod text-info">
+				Em breve mais
+			</div>
+		</div>
+</div>
+</div>
+
+<div class='modal container-fluid' id='info-paypizza'>
+	<div class="modal-dialog mod" role="document">
+		<div class="modal-content mod">
+			<div class="modal-header mod text-warning">
+				<div class="modal-title ">Descrição do projeto PayPizza T.C.C.</div>
+				<button data-dismiss="modal" class='close'>X</button>
+
+			</div>
+			<div class="modal-body mod">
+				O projeto desenvolvido em conjunto com o <a href="https://github.com/lucasmofardini">Lucas Mofardini de Almeida</a>
+				consiste em uma aplicação de baixo custo para o gerenciamento de pizzaria.<br><br>
+	Principais Funções:
+		<br>
+				<ul>
+					<li>Cadastro,gerenciamento e login de clientes</li>
+					<li>Cadastro,gerenciamento e login de funcionários</li>
+					<li>Cadastro e gerenciamento de produtos</li>
+					<li>Realização de compras(Sem pagamento online)</li>
+				</ul>
+
+<br>	<a  href='32A-PayPizza-V04.docx' download target="_blank">Documentação</a>
+
+					</div>
+				<div class="modal-footer mod text-info">
+					Desenvolvido em 2019
+			</div>
+		</div>
+</div>
+</div>
+
+<div class='modal container-fluid' id='info-freeong'>
+	<div class="modal-dialog mod" role="document">
+		<div class="modal-content mod">
+			<div class="modal-header mod text-warning">
+				<div class="modal-title ">Descrição do projeto FreeOng</div>
+				<button data-dismiss="modal" class='close'>X</button>
+
+			</div>
+			<div class="modal-body mod">
+				Projeto voluntário para o gerenciamento de ong's<br><br>
+
+				Principais Funções:
+				<br>
+				<ul>
+					<li>Cadastro,gerenciamento e login de clientes</li>
+					<li>Cadastro,gerenciamento e login de funcionários</li>
+					<li>Cadastro e manipulação dos cursos</li>
+					<li>Lista de presença</li>
+				</ul>
+				</div>
+				<div class="modal-footer mod text-info">
+				Iniciado e pausado 2019
+			</div>
+		</div>
+</div>
+</div>
+
+<div class='modal container-fluid' id='info-sinistra'>
+	<div class="modal-dialog mod" role="document">
+		<div class="modal-content mod">
+			<div class="modal-header mod text-warning">
+				<div class="modal-title ">Descrição do projeto Sinistra</div>
+				<button data-dismiss="modal" class='close'>X</button>
+
+			</div>
+			<div class="modal-body mod">
+				Site institucional responsivo para a banda <a href="https://www.facebook.com/bandasinistra/">Sinistra</a>
+
+				</div>
+				<div class="modal-footer mod text-info">
+					2019
+			</div>
+		</div>
+</div>
+</div>
+
+<div class='modal container-fluid' id='modal-contatos'>
+	<div class="modal-dialog mod" role="document">
+		<div class="modal-content mod">
+			<div class="modal-header mod text-warning">
+				<div class="modal-title ">Contatos</div>
+				<button data-dismiss="modal" class='close'>X</button>
+
+			</div>
+			<div class="modal-body mod">
+<ul>
+<li>Github:<a href="https://github.com/RaphaelBRodrigues">	 RaphaelBRodrigues</li></a>
+<br><li>Linkedin:<a href="https://www.linkedin.com/in/raphael-b-rodrigues-08b02889/">   raphael-barbosa-rodrigues-08b02889</li></a>
+<br><li>Email: raphaelbarbosa.rodrigues@gmail.com</li>
+<br><li>Telefone: (11)965482567</li>
+</ul>
+				</div>
+				<div class="modal-footer mod text-info">
+			</div>
+		</div>
+</div>
+</div>
+
+<div class='modal container-fluid' id='info-quizmania'>
+	<div class="modal-dialog mod" role="document">
+		<div class="modal-content mod">
+			<div class="modal-header mod text-warning">
+				<div class="modal-title ">Descrição do projeto QuizMania</div>
+				<button data-dismiss="modal" class='close'>X</button>
+
+			</div>
+			<div class="modal-body mod">
+				Desenvolvido durante o Ensino Médio para um grupo de alunos desesperados,o projeto
+			  deveria ser desenvoldo no decorrer de 2 anos (1º e 2º ano do E.M) e o grupo nos procurou
+				para desenvolve-lo em 2 dias(sábado e domingo para a entrega na segunda)
+<br><br>
+Principais Funções:<br>
+<ul>
+	<li>Cadastro e login de usuários</li>
+	<li>Cadastro e manipulação de questões</li>
+	<li>Relação de acertos e erros</li>
+	<li>Ranking de usuários</li>
+</ul>
+				</div>
+				<div class="modal-footer mod text-info">
+					Desenvolvido em 2019
+			</div>
+		</div>
+</div>
+</div>
+
+<div onmouseover='maxQr()' onmouseout="minQr()" class='img-thumbnail    col-1 px-1 py-1 ml-3' id='container-qr'>
+	<img  onmouseover='maxQr()' onmouseout="minQr()" src='images/QR.png' id='qr' class='img-thumbnail' title="QR Para este WebSite" alt='QR CODE'>
+</div>
+
+
+<div id='main  bg-warning'>
+
+	<div class="img-fluid parallax container-fluid" id='code'>
+		<div class="row ">
+			<p class='linux' id='linux'>&nbsp;<span id='linux-pwd'> &nbsp; &nbsp;</span><span id='linux-codigo'></span>  <span id='linux-barra'></span>  </p><br>
+<div class="lin">
+
+			<p class='linux ' id='linux1'>&nbsp;<span id='linux-pwd1'> &nbsp; &nbsp;</span><span id='linux-codigo1'></span>  <span id='linux-barra1'></span>  </p><br>
+			<p class='linux ' id='linux2'>&nbsp;<span id='linux-pwd2'> &nbsp; &nbsp;</span><span id='linux-codigo2'></span>  <span id='linux-barra2'></span>  </p><br>
+			<p class='linux ' id='linux3'>&nbsp;<span id='linux-pwd3'> &nbsp; &nbsp;</span><span id='linux-codigo3'></span>  <span id='linux-barra3'></span>  </p><br>
+			<p class='linux' id='linux4'>&nbsp;<span id='linux-pwd4'> &nbsp; &nbsp;</span><span id='linux-codigo4'></span>  <span id='linux-barra4'></span>  </p><br>
+			<p class='linux' id='linux5'>&nbsp;<span id='linux-pwd5'> &nbsp; &nbsp;</span><span id='linux-codigo5'></span>  <span id='linux-barra5'></span>  </p><br>
+		</div>
+
+		<img class='d-block mx-auto '  src="images/foto.jpg" id='foto'  alt="">
+
+		</div>
+		<div class="row but">
+
+		<button   class=' btn-main mx-auto  py-2 px-3 '  name="button" id='btn-main1'><a href="RaphaelBRodriguesCV.pdf"  download><h3 class='sm pr-4 '>
+			<i id="main-download"class='material-icons pr-3 download'>file_download</i>Currículo</h3></a></button>
+	 <!-- <button type="button" id='btn-main2' onclick="contrate()" class='btn  mx-auto btn-success btn-main  py-2 px-2 '   name="button">	<a href="#em" onclick="contrate()" ><h3 class='sm'>Contrate-me</h3></a></button> -->
+	</div>
+
+</div>
+</div><br>
+<div class='faixa'  id='resumo'></div>
+<br>
+<h1 class='text-h1 text-warning text-uppercase text-center'>Resumo</h1>
+
+<div  class='container-resumo  py-5  px-5 mt-5 pb-2 mb-5 col-lg-7 col-sm-9 col-sm-8 mx-auto rounded border border-success'>
+<p class='text-left re text-success'>Olá meu nome é Raphael e busco um lugar onde possa me desenvolver como programador
+	e eventualmente possa ajudar meus colegas com seus problemas.Gosto muito da área
+	de desenvolvimento de software,onde tive contato pela primeira vez no ensino médio,
+	e tenho uma incessante vontade de expandir minhas habilidades na mesma.
+</div>
+</div>
+<div class='faixa mb-5' id='habilidades'></div>
+<h1 class='text text-warning mb-5 text-uppercase text-center'>Habilidades</h1>
+
+<div id='idiomas' class='col-lg-9 col-sm-10 mx-auto mb-5  rounded border border-success container-habilidades'>
+	<button data-target="#certificados-idiomas" data-toggle="modal" class='btn   text-success mt-1 mx-sm-auto float-lg-right d-sm-block    text-success mt-1 mx-sm-auto float-lg-right d-sm-block  '><span title="Certificados" class='material-icons book-icon'>book</span></button>
+	<h1 class='mt-2 text-h1 text-warning text-center '>Idiomas</h1>
+
+<h4 class='text-warning pb-2 float-left'>Inglês</h4>
+	<h6 class='text-warning pb-2 float-right'>Pré-Avançado</h6>
+	<div class="potencia col-12 mt-5 mb-5">
+		<div class="potenciaReal col-8">
+		</div>
+	</div>
+
+
+
+
+	<h4 class='text-warning  float-left'>Português</h4>
+	<h6 class='text-warning  float-right'>Nativo</h6><br>
+	<div class="potencia col-12 mt-3 mb-5">
+		<div class="potenciaReal col-12">
+		</div>
+	</div>
+
+
+<h4 class='text-muted  float-left'>Italiano</h4>
+	<h6 class='text-warning  float-right'>Em breve</h6><br>
+	<div class="potencia col-12 mt-3 ">
+		<div class="potenciaReal col-0">
+		</div>
+	</div>
+
+	<br>
+
+
+</div>
+
+
+
+
+
+<div id='' class="col-9 mx-auto col-sm-10  rounded border border-success container-habilidades">
+
+<button data-target="#certificados-banco" data-toggle="modal" class='btn   text-success mt-1 mx-sm-auto float-lg-right d-sm-block    text-success mt-1 mx-sm-auto float-lg-right d-sm-block '><span title="Certificados" class='material-icons book-icon'>book</span></button>
+<h1 class='mt-2 text-h1 text-warning text-center '>Banco de dados</h1>
+<h4 class='text-warning pb-2 float-left'>MySQL</h4>
+	<h6 class='text-warning pb-2 float-right'>70%</h6>
+	<div class="potencia col-12 mt-5 mb-5">
+		<div class="potenciaReal col-9">
+		</div>
+	</div>
+
+
+	<h4 class='text-warning  float-left'>SQL Server</h4>
+		<h6 class='text-warning  float-right'>60%</h6><br>
+		<div class="potencia col-12 mt-3 mb-5">
+			<div class="potenciaReal col-8">
+			</div>
+		</div>
+
+
+		<h4 class='text-warning  float-left'>PostgreSQL</h4>
+			<h6 class='text-warning  float-right'>40%</h6><br>
+			<div class="potencia col-12 mt-3 mb-5">
+				<div class="potenciaReal col-5">
+				</div>
+			</div>
+
+	<h4 class='text-muted  float-left'>NoSQL</h4>
+	<h6 class='text-warning  float-right'>Em breve</h6><br>
+	<div class="potencia col-12 mt-3">
+		<div class="potenciaReal col-0">
+		</div>
+	</div>
+<br>
+
+
+
+</div>
+<div class="container-fluid">
+	<div class="row">
+<div id='h1' class="mt-5 mb-2 ml-lg-5 col-sm-9  col-sm-10 col-lg-5 mx-sm-auto rounded border border-success container-habilidades">
+	<div  data-target="#certificados-estil" data-toggle="modal" class=' btn   text-success  mx-sm-auto    text-success  mx-sm-auto d-sm-block  float-lg-left  tchau ss'><span title="Certificados" class='material-icons book-icon '>book</span></div>
+
+	<button data-target="#certificados-prog" data-toggle="modal" class='btn   text-success mx-sm-auto float-lg-right d-sm-block    text-success  mx-sm-auto float-lg-right d-sm-block  '><span title="Certificados" class='material-icons book-icon'>book</span></button>
+
+<h1 class='mt-2 text-h1 text-warning text-center '>Linguagens 	<br>	<h2 class='text-center text-warning'>De</h2> <h3 class='text-center text-warning'><strong>	Programação </strong><br><small> (e frameworks)</small></h3> </h1>
+<br>
+
+<h4 class='text-warning pb-2 float-left'>PHP</h4>
+	<h6 class='text-warning pb-2 float-right'>70%</h6>
+	<div class="potencia col-12 mt-5 mb-5">
+		<div class="potenciaReal col-9">
+		</div>
+	</div>
+
+
+	<h4 class='text-warning  float-left'>JavaScript</h4>
+	<h6 class='text-warning  float-right'>65%</h6><br>
+	<div class="potencia col-12 mt-3 mb-5">
+		<div class="potenciaReal col-7">
+		</div>
+	</div>
+
+		<h4 class='text-warning  float-left'>JQuery/Ajax</h4>
+	<h6 class='text-warning  float-right'>45%</h6><br>
+	<div class="potencia col-12 mt-3 mb-5">
+		<div class="potenciaReal col-5">
+		</div>
+	</div>
+
+	<h4 class='text-warning  float-left'>C#</h4>
+	<h6 class='text-warning  float-right'>65%</h6><br>
+	<div class="potencia col-12 mt-3 mb-5">
+		<div class="potenciaReal col-7">
+		</div>
+	</div>
+
+<h4 class='text-muted  float-left'>Node.js</h4>
+	<h6 class='text-warning  float-right'>Em breve</h6><br>
+	<div class="potencia col-12 mt-3 mb-3">
+		<div class="potenciaReal col-0">
+		</div>
+	</div>
+</div>
+
+<div id='h2' class="mt-5 mb-2 col-sm-10  mr-lg-5 mx-sm-auto col-sm-9 col-lg-5 ml-lg-5 rounded border border-success container-habilidades">
+	<div data-target="#certificados-estil" data-toggle="modal" class='btn   text-success mt-1 mx-sm-auto    text-success mt-1 mx-sm-auto d-sm-block  float-lg-left tchau ss'><span title="Certificados" class='material-icons book-icon '>book</span></div>
+	<button data-target="#certificados-estil" data-toggle="modal" class='btn  float-lg-right  text-success mt-1 mx-sm-auto float-lg-right d-sm-block    text-success mt-1 mx-sm-auto  d-sm-block  float-lg-right'><span title="Certificados" class='material-icons book-icon'>book</span></button>
+
+	<h1 class='mt-2 text-h1 text-warning text-center  '>Linguagens 	<br>	<h2 class='text-center text-warning'>De</h2> <h3 class='text-center text-warning'><strong>Estilização/Marcação</strong>  <br><small> (e frameworks)</small></h3> </h1>
+<br>
+	<h4 class='text-warning pb-2 float-left'>HTML</h4>
+	<h6 class='text-warning pb-2 float-right'>75%</h6>
+	<div class="potencia col-12 mt-5 mb-5">
+		<div class="potenciaReal col-9">
+		</div>
+	</div>
+
+
+
+
+	<h4 class='text-warning  float-left'>CSS</h4>
+	<h6 class='text-warning  float-right'>75%</h6><br>
+	<div class="potencia col-12 mt-3 mb-5">
+		<div class="potenciaReal col-9">
+		</div>
+	</div>
+
+
+<h4 class='text-warning  float-left'>Bootstrap</h4>
+	<h6 class='text-warning  float-right'>60%</h6><br>
+	<div class="potencia col-12 mt-3 mb-5">
+		<div class="potenciaReal col-7">
+		</div>
+	</div>
+
+
+<h4 class='text-muted  float-left'>React</h4>
+	<h6 class='text-warning  float-right'>Em breve</h6><br>
+	<div class="potencia col-12 mt-3 mb-5">
+		<div class="potenciaReal col-0">
+		</div>
+	</div>
+
+<h4 class='text-muted  float-left'>Angular</h4>
+	<h6 class='text-warning  float-right'>Em breve</h6><br>
+	<div class="potencia col-12 mt-3 ">
+		<div class="potenciaReal col-0">
+		</div>
+	</div>
+
+	<br>
+
+</div>
+</div>
+</div>
+
+
+<div id='idiomas' class='col-lg-9 col-sm-10 mx-auto mt-5  rounded border border-success container-habilidades'>
+	<button data-target="#certificados-tecnologias" data-toggle="modal" class='btn   text-success mt-1 mx-sm-auto float-lg-right d-sm-block    text-success mt-1 mx-sm-auto float-lg-right d-sm-block  '><span title="Certificados" class='material-icons book-icon'>book</span></button>
+	<h1 class='mt-2 text-h1 text-warning text-center '>Outras tecnologias</h1>
+
+<h4 class='text-warning pb-2 float-left'>Git</h4>
+	<h6 class='text-warning pb-2 float-right'>60%</h6>
+	<div class="potencia col-12 mt-5 mb-5">
+		<div class="potenciaReal col-7">
+		</div>
+	</div>
+
+
+
+
+	<h4 class='text-warning  float-left'>Linux</h4>
+	<h6 class='text-warning  float-right'>50%</h6><br>
+	<div class="potencia col-12 mt-3 mb-5">
+		<div class="potenciaReal col-6">
+		</div>
+	</div>
+
+
+<h4 class='text-warning  float-left'>Java</h4>
+	<h6 class='text-warning  float-right'>65%</h6><br>
+	<div class="potencia col-12 mt-3 mb-5">
+		<div class="potenciaReal col-8">
+		</div>
+	</div>
+
+	<h4 class='text-muted  float-left'>Docker</h4>
+		<h6 class='text-warning  float-right'>Em breve</h6><br>
+		<div class="potencia col-12 mt-3 ">
+			<div class="potenciaReal col-0">
+			</div>
+		</div>
+	<br>
+
+
+</div>
+
+<div class="faixa">
+
+</div>
+<h1 onclick="ps()" id='portifolio' class="mt-5 mb-sm-5 pr text text-center text-warning text-uppercase">Projetos</h1>
+
+<div class="container-fluid"><div class="row">
+
+
+	<fieldset class='container float-lg-left mr-lg-5 col-lg-5 mt-lg-4 mt-sm-5 mx-sm-auto mb-sm-5 ' id="portifoliooo">
+		<legend class='text-warning w-auto'>
+			<button type="button" class=' btn btn-icon-info' data-toggle='modal' data-target='#info-paypizza' id='bot-info' data-modal name="button">
+					<i title='Informações sobre o projeto' class='material-icons text-success info-icon'>info</i>
+				</button>
+			</legend>
+
+
+
+		<h2 class='text text-warning text-center tam' >PayPizza<br><h6 class='text text-warning dat text-center'>15/03/19-25/08/2019</h6><h5 class='text-center text-warning'>Desenvolvido com  Lucas M. G. de Almeida</h5></h2>
+		<a href="https://paypizza.epizy.com"><img title="Imagem do projeto" class='mx-auto d-block pb-3 mt-3  port-img col-12'  src="images/pay.png"></a>
+		<div class='container port-ico d-block ml-lg-5 ml-sm-5 '>
+
+		<a target="_blank" href="https://github.com/RaphaelBRodrigues/PayPizza-TCC"><img class='ml-5 img col-lg-3 col-sm-4 ' title="Repositório" alt='git' src="images/git.png"></a>
+		<a target="_blank" href="https://paypizza.epizy.com"><img class='col-sm-4 col-lg-4 img mr-5' title="Site" src="images/net.png"></a>
+	<br>
+		</div>
+		<br>
+
+	</fieldset>
+
+
+		<fieldset class='container float-lg-left ml-lg-5 col-lg-5 mt-lg-4 mt-sm-5 mx-sm-auto mb-sm-5  ' id="portifoliooo">
+			<legend class='text-warning w-auto'>
+	      <button type="button" class='btn btn-icon-info' data-toggle='modal' data-target='#info-freeong' data-modal name="button">
+	        	<i title='Informações sobre o projeto' class='material-icons text-success info-icon'>info</i>
+	        </button>
+
+				</legend>
+
+
+
+			<h2 class='text text-warning text-center tam' >FreeOng<br><h6 class='text text-warning dat text-center'>06/08/2019-??/??/????</h6><h5 class='text-center text-warning'>Pausado</h5></h2>
+			<a href="https://freeong.epizy.com/"><img title="Imagem do projeto" class='mx-auto d-block pb-3 mt-3  port-img col-12'  src="images/ong.png"></a>
+
+
+				<div class='container port-ico d-block ml-5 '>
+	        <a target="_blank" href="https://github.com/RaphaelBRodrigues/ONG"><img class='ml-5 img col-lg-3 col-sm-4'  title="Repositório" alt='git' src="images/git.png"></a>
+	        <a target="_blank" href="http://freeong.epizy.com/"><img class='col-sm-4 col-lg-4 img mr-5 ' title="Site" src="images/net.png"></a>
+	<br>
+	        </div>
+<br>
+		</fieldset>
+
+
+</div></div>
+
+<div class="container-fluid"><div class="row">
+
+	<fieldset class='container float-lg-left mr-lg-5 col-lg-5 mt-lg-4 mt-sm-5 mx-sm-auto mb-sm-5 ' id="portifoliooo">
+	  <legend class='text-warning w-auto'>
+	    <button type="button" class=' btn btn-icon-info' data-toggle='modal' data-target='#info-sinistra' id='bot-info' data-modal name="button">
+	        <i title='Informações sobre o projeto' class='material-icons text-success info-icon'>info</i>
+	      </button>
+	    </legend>
+
+
+
+	  <h2 class='text text-warning text-center tam' >Sinistra<br><h6 class='text text-warning dat text-center'>28/10/19-??/??/???</h6><h5 class='text-center text-warning'>Em desenvolvimento</h5></h2>
+	  <a href="https://raphaelbrodrigues.github.io/Sinistra"><img title="Imagem do projeto" class='mx-auto d-block pb-3 mt-3  port-img col-12'  src="images/sinistra.png"></a>
+	  <div class='container port-ico d-block ml-lg-5 ml-sm-5 '>
+
+	  <a target="_blank" href="https://github.com/RaphaelBRodrigues/Sinistra"><img class='ml-5 img col-lg-3 col-sm-4 ' title="Repositório" alt='git' src="images/git.png"></a>
+	  <a target="_blank" href="https://raphaelbrodrigues.github.io/Sinistra"><img class='col-sm-4 col-lg-4 img mr-5' title="Site" src="images/net.png"></a>
+	<br>
+	  </div>
+	  <br>
+
+	</fieldset>
+
+
+
+	  <fieldset class='container float-lg-left ml-lg-5 col-lg-5 mt-lg-4 mt-sm-5 mx-sm-auto mb-sm-5  ' id="portifoliooo">
+	    <legend class='text-warning w-auto'>
+	      <button type="button" class='btn btn-icon-info' data-toggle='modal' data-target='#info-quizmania' data-modal name="button">
+	          <i title='Informações sobre o projeto' class='material-icons text-success info-icon'>info</i>
+	        </button>
+
+	      </legend>
+
+
+
+	    <h2 class='text text-warning text-center tam' >Quiz Mania<br><h6 class='text text-warning dat text-center'>29/10/2019-30/10/2019</h6><h5 class='text-center text-warning'>Desenvolvido com Lucas Gabriel M. de Almeida</h5></h2>
+	    <a href="http://quizmania.rf.gd/Front/Index.php?i=1"><img title="Imagem do projeto" class='mx-auto d-block pb-3 mt-3  port-img col-12'  src="images/quiz.PNG"></a>
+
+
+	      <div class='container port-ico d-block ml-5 '>
+	        <a target="_blank" href="https://github.com/RaphaelBRodrigues/QuizMania"><img class='ml-5 img col-lg-3 col-sm-4'  title="Repositório" alt='git' src="images/git.png"></a>
+	        <a target="_blank" href="http://quizmania.rf.gd/Front/Index.php?i=1"><img class='col-sm-4 col-lg-4 img mr-5 ' title="Site" src="images/net.png"></a>
+	<br>
+	        </div>
+	        <br>
+
+	  </fieldset>
+
+</div></div>
+
+<div class="faixa mt-lg-5 mt-sm-5 mb-lg-5 mx-auto" id='commits'></div>
+<h1 class='text text-warning mt-sm-1 mb-sm-5 mx-auto text-uppercase mb-lg-5 text-center'>Últimos commits</h1>
+<a href="#" target="_blank" id='commit-link'>
+<div  id='contgit' class="container pl-3 pr-3 pt-3 pb-3   cursos text-warning col-9">
+<div class="row ">
+
+	<img src="" class='img col-2' id='commit-foto' alt="">
+
+<div  class="container   col-9 rep">
+
+<div class='row pt-1'>
+<h3>Vendor: <span id='commit-vend'></span></h3>
+</div>
+<div class='row pt-1'>
+
+<h3>Repositório: <span id='commit-rep'></span></h3>
+</div>
+<div class='row pt-1'>
+
+<h3>Commit ID: <span id='commit-id'></span></h3>
+</div>
+<div class="row">
+
+<h3>Descriçâo: <span id='commit-des'></span></h3>
+
+</div>
+</div>
+
+</div>
+</div>
+</a>
+</div>
+<br>
+<a href="#" target="_blank" id='commit-link1'>
+<div id='contgit' class="container pl-3 pr-3 pt-3 pb-3   cursos text-warning col-9">
+<div class="row ">
+
+<img src="" class='img col-2' id='commit-foto1' alt="">
+
+<div  class="container   col-9 rep">
+
+<div class='row pt-1'>
+	<h3>Vendor: <span id='commit-vend1'></span></h3>
+</div>
+<div class='row pt-1'>
+
+<h3>Repositório: <span id='commit-rep1'></span></h3>
+</div>
+<div class='row pt-1'>
+
+<h3>Commit ID: <span id='commit-id1'></span></h3>
+</div>
+<div class="row">
+
+<h3>Descriçâo: <span id='commit-des1'></span></h3>
+</div>
+</div>
+</div>
+
+</div>
+</a>
+</div>
+<br>
+
+<a href="#" target="_blank" id='commit-link2'>
+
+<div id='contgit' class="container pl-3 pr-3 pt-3 pb-3   cursos text-warning col-9">
+<div class="row ">
+
+<img src="" class='img col-2' id='commit-foto2' alt="">
+
+<div  class="container   col-9 rep">
+
+<div class='row pt-1'>
+	<h3>Vendor: <span id='commit-vend2'></span></h3>
+</div>
+<div class='row pt-1'>
+
+<h3>Repositório: <span id='commit-rep2'></span></h3>
+</div>
+<div class='row pt-1'>
+
+<h3>Commit ID: <span id='commit-id2'></span></h3>
+</div>
+<div class="row">
+
+<h3>Descriçâo: <span id='commit-des2'></span></h3>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</a>
+</div>
+<br>
+
+<a href="#" target="_blank" id='commit-link3'>
+<div id='contgit' class="container pl-3 pr-3 pt-3 pb-3   cursos text-warning col-9">
+<div class="row ">
+
+<img src="" class='img col-2' id='commit-foto3' alt="">
+
+<div  class="container   col-9 rep">
+
+	<div class='row pt-1'>
+
+	<h3>Vendor: <span id='commit-vend3'></span></h3>
+
+</div>
+<div class='row pt-1'>
+
+	<h3>Repositório: <span id='commit-rep3'></span></h3>
+</div>
+<div class='row pt-1'>
+
+<h3>Commit ID: <span id='commit-id3'></span></h3>
+</div>
+<div class="row">
+
+<h3>Descriçâo: <span id='commit-des3'></span></h3>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</a>
+</div>
+<br>
+
+
+
+<div class="faixa mt-lg-5 mt-sm-5 mb-lg-5 mx-auto" id='formacao'></div>
+<h1 class='text text-warning mt-sm-1 mb-sm-5 mx-auto text-uppercase mb-lg-5 text-center'>Formações acadêmicas</h1>
+
+<div class='container-fluid'>
+<center>
+	<ul class='list-group col-lg-12 col-sm-11 mb-sm-5 mx-auto'>
+
+<a class='no-link mb-3' target="_blank" href="https://eatw.educacaoadventista.org.br/">	<li class='cursos list-group-item col-lg-6 col-sm-10 text-warning'><h4><small>Ensino Fundamental:</small><br>E.A.T.W (2005-2016) <span class='material-icons float-right text-success grad-icon'>check</span></h4></li></a>
+ <Br>
+	<a  class='no-link mb-3' target="_blank" href="https://www.unasp.br/sp/colegiounasp/ensinomedio/">	<li class='cursos col-sm-10 col-lg-6 list-group-item text-warning '><h4><small>Ensino Médio Técnico:</small><br>UNASP (2017-2019) <span class='material-icons float-right text-success grad-icon'>check</span></h4></li></a>
+<br>
+<a  class='no-link mb-3' target="_blank" href="https://www.unasp.br/cursos/sp/graduacao/ciencia-da-computacao/">	<li class='cursos col-sm-10 col-lg-6  list-group-item text-warning '><h4><small>Ciência da computação</small><br>UNASP (2020-2023) <span class='material-icons float-right text-warning prog grad-icon'>data_usage</span></h4></li></a>
+		<br>
+		<a  class='no-link mb-3' target="_blank" href="#formacao">			<li class='cursos col-sm-10 col-lg-6  list-group-item text-muted '><h4><small>Direito</small><br>???? (????-????) <span class='material-icons float-right  text-muted grad-icon '>trending_flat</span></h4></li></a>
+<br>
+</ul>
+</center>
+
+</div>
+<div class="faixa mt-lg-5 mb-lg-5" id='contatos'></div>
+<h1 class='text text-warning mb-sm-5 text-uppercase text-center'>Contatos</h1>
+
+<div class="container-fluid gr-b">
+	<div class="row">
+	<div id='contgit' class='cursos container  mx-auto mb-sm-5 col-lg-5 pb-3 pt-3 pl-1 pr-1' >
+<div class="container-fluid">
+	<div class="row">
+
+	<a class='nav-link text-light py-lg-1' href="https://github.com/RaphaelBRodrigues/">
+		<img class='float-left col-lg-3 ml-lg-2 ' id='gh' src="images/git.png"/>
+		<h3 class='ml-lg-1   float-left mt-lg-5 '  id='git-text'>Github: <span  class='text text-warning sp'>RaphaelBRodrigues</span></h3>
+		<br>
+</a>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+	<div id='contgit' class='cursos container  mx-auto mb-sm-5 col-lg-5 pb-3 pt-3 pl-1 pr-1' >
+	<a target="_blank" class='nav-link text-light py-lg-1' href="https://www.linkedin.com/in/raphael-b-rodrigues-08b02889/">
+	<img class='float-left col-lg-3 ml-lg-2 ' id='gh' src="images/linkedin.png"/>
+<h3 class='ml-lg-1  float-left mt-lg-5 '  id='git-text'>Linkedin: <span class='text text-warning sp'>Raphael Barbosa Rodrigues</span></h3>
+</a>
+</div>
+</div>
+</div>
+
+
+
+<br>
+<div class="container-fluid gr-b">
+	<div class="row">
+
+<div id='contgit' class='cursos container mb-sm-5   mx-auto col-lg-5 pb-3 pt-3 pl-1 pr-1' >
+<a target="_blank" class='nav-link text-light py-lg-1' href="mailto:Raphaelbarbosa.rodrigues@gmail.com">
+	<img class='float-left col-lg-2 ml-lg-2 ' id='gh' src="images/gmail.png">
+	<h3 class='ml-lg-1  float-left mt-lg-2 '  id='git-text'>Email: <span class='text text-warning sp'>Raphaelbarbosa.rodrigues@gmail.com</span></h3>
+	<br>
+</a>
+</div>
+</div>
+</div>
+
+<div class="container-fluid gr-b">
+	<div class="row">
+<div id='contgit' class='cursos mt-5 container  mx-auto mb-sm-5 col-lg-5 pb-3 pt-3 pl-1 pr-1' >
+	<a class='nav-link text-light py-lg-1' href="tel:1196548-2567">
+		<img class='float-left col-lg-3 ml-lg-2 ' id='gh' src="images/tel.png"/>
+		<h3 class='ml-lg-1  float-left mt-lg-5 '  id='git-text'>Telefone: <span  class='text text-warning sp'>(11)96548-2567</span></h3>
+		<br>
+</a>
+</div>
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<div class="container grande">
+<div class="row">
+	<center>
+	<a href="https://github.com/RaphaelBRodrigues/" target="_blank" alt='RaphaelBRodrigues' title='RaphaelBRodrigues'>	<img class='col-lg-1 ml-lg-2 ' id='gh' src="images/git.png"/></a>
+	<a href="https://www.linkedin.com/in/raphael-b-rodrigues-08b02889/" target="_blank" alt='raphael-barbosa-rodrigues-08b02889' title='raphael-barbosa-rodrigues-08b02889'>	<img class=' col-lg-1 ml-lg-2 ' id='gh' src="images/linkedin.png"/></a>
+	<a href="mailto:raphaelbarbosa.rodrigues@gmail.com" target="_blank" alt='raphaelbarbosa.rodrigues@gmail.com' title='raphaelbarbosa.rodrigues@gmail.com'>	<img class='col-lg-1 ml-lg-2 ' id='gh' src="images/gmail.png"/></a>
+	<a href="https://api.whatsapp.com/send?phone=55119654825677" target="_blank" alt='(11)965482-5677' title='(11)965482-5677'>	<img class=' col-lg-1 ml-lg-2 ' id='gh' src="images/wpp.png"/></a>
+</center>
+</div>
+</div>
+<br>
+<div class="grande">
+	<center>
+	<button class='btn btn-outline-warning' data-target="#modal-contatos" data-toggle='modal' data-dismiss='#modal-contatos' type="button" name="button">Visualizar dados</button>
+	</center>
+</div>
+<div class='mx-auto py-4'>
+<form method="POST" id='em' class='form-group py-4 mx-auto col-lg-5 col-sm-9 mx-lg-auto text-center' action="https://formspree.io/tiunasp801@gmail.com">
+		<h2 id='e' class='text text-warning'>Envie-me um e-mail</h2>
+
+	<div class='form-group'>
+  <input type="email" class='form-control py-4'  id='email' name="email" placeholder="Seu email">
+  </div>
+  	<div class='form-group'>
+ <input name="message" class='form-control py-4' id='tit-emai' placeholder="Titulo"></input>
+  <textarea name="message" class='form-control py-4' id='emai' placeholder="Mensagem"></textarea>
+</div>
+  <button class='btn btn-danger' type='reset' id='limpar' >Limpar campos</button>
+   <button class='btn btn-success' type="submit">Enviar email</button>
+
+</form>
+
+</div>
+
+
+
+<br>
+						<center>
+<!-- <button data-toggle='collapse' data-dismiss='collapse' data-target='#rascunho' class='btn btn-outline-success'>Rascunho</button> !-->
+						<div id='rascunho' class='collapse text-warning'>TesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTeste</div>
+						</center>
+
+
+
+<footer id='footer' class='col-12'>
+<h2 class=' text-warning float-left'>CurrículoWeb</h2>
+<h5 class=' text-warning float-right'>Desenvolvido por Raphael Barbosa Rodrigues <small>(2019)</small></h5>
+</footer>
+<div><br></div>
+
+</body>
+
+
+
+<easter id='ghost' style='color:rgba(1,1,1,3);'  onclick="ghost()" >Não clique aqui<br><egg style='display: none;'><pa>Eu disse para você não clicar!</pa><br>mas tudo bem.parabéns você acabou de ganhar um parabéns e esse hashcode que eu não sei pra que vai servir:cd5ca92554d28886276317aa727da4ca8e8f5545</egg></easter>
+
+</html>
+
+<style type="text/css">
+	#des{
+		opacity: 0;
+	}
+#ghost::selection {
+	background-color: lightgray;
+}
+</style>
