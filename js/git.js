@@ -38,6 +38,7 @@ var urlRep3 = urlUser+repos3[1];
 var urlRep4 = urlUser+repos4[1];
 
 //Identificando o tipo de evento e atribuindo uma imagem ao elemento
+
 if (data[0].type == "PushEvent") {
 //Se a ação for um commit
 $("#commit-foto").attr("src","images/commit.png");
@@ -149,40 +150,47 @@ var com4 = longCom4.substring(0,6);
 
 
 //atribuindo os valores capturados através da api aos elementos
+try{
 
 $("#commit-id").text(com);
 $("#commit-vend").text(repos[0]);
 $("#commit-rep").text(repos[1]);
 $("#commit-des").text(data[0].payload.commits[0].message);
 $("#commit-link").attr("href", urlRep);
+}catch{}
 
-
+try{
 
 $("#commit-id1").text(com1);
 $("#commit-vend1").text(repos1[0]);
 $("#commit-rep1").text(repos1[1]);
 $("#commit-des1").text(data[1].payload.commits[0].message);
 $("#commit-link1").attr("href", urlRep1);
+}catch{}
+try{
 
 $("#commit-id2").text(com2);
 $("#commit-vend2").text(repos2[0]);
 $("#commit-rep2").text(repos2[1]);
 $("#commit-des2").text(data[2].payload.commits[0].message);
 $("#commit-link2").attr("href", urlRep2);
-
+}catch{}
+try{
 
 $("#commit-id3").text(com3);
 $("#commit-vend3").text(repos3[0]);
 $("#commit-rep3").text(repos3[1]);
 $("#commit-des3").text(data[3].payload.commits[0].message);
 $("#commit-link3").attr("href", urlRep3);
+}catch{}
+try{
 
 $("#commit-id4").text(com4);
 $("#commit-vend4").text(repos4[0]);
 $("#commit-rep4").text(repos4[1]);
 $("#commit-des4").text(data[4].payload.commits[0].message);
 $("#commit-link4").attr("href", urlRep4);
-
+}catch{}
 // $("#commit-link").attr("href","www.google.com");
 
 
