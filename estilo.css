@@ -15,7 +15,9 @@ overflow-x: hidden;
 	display: none;
 }
 #nav-clock{
+	font-family: calibri;
 	box-shadow: 0 0 5px yellow;
+	font-weight:bold;
 }
 .btn-icon-info{
 	background-size: 200%;
@@ -27,8 +29,7 @@ border: 0px;
 h5{
 	font-weight: 600;
 }
-.material-icons{
-}
+
 .text-uppercase{
 	letter-spacing: 0.3em;
 }
@@ -389,7 +390,7 @@ color:black;
 }
 .potenciaReal{
 	position: absolute;
-	margin-left: -0.93em;
+	margin-left: -0.99em;
 	background-color:green;
 	height: 0.3em;
 }
@@ -440,6 +441,18 @@ background-color: black;
 border:1px double black;
  animation: borda 3s linear infinite;
 box-shadow: 0px 0px 40px green;
+}
+.cert{
+	padding: 0px 0px 0px 0px;
+
+
+}
+.bootcamp{
+background-color: blue;
+	box-shadow: 0 0 10px black;
+	border:1px solid black;
+	animation: borda 3s linear infinite;
+
 }
 
 @keyframes borda {
