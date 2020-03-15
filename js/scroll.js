@@ -96,4 +96,22 @@ if($(document).scrollTop() >= $("#portifolio").position().top){
 		backcolor(document.getElementById("formacaoo"));
 
 }
+
+
+if ($(document).scrollTop() >= $("#carreira").position().top) {
+//Resumo
+if ($(document).scrollTop() < $("#contatos").position().top) {
+var el = document.getElementById("carreiraa");
+verde(el);
+
+}else{
+	backcolor(document.getElementById("carreiraa"));
+
+}
+}else{
+	backcolor(document.getElementById("carreiraa"));
+
+}
+
+
 });
